@@ -1,0 +1,14 @@
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\bin\Debug\Halı Saha Rezervasyonu.exe.config
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\bin\Debug\Halı Saha Rezervasyonu.exe
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\bin\Debug\Halı Saha Rezervasyonu.pdb
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı Saha Rezervasyonu.csproj.AssemblyReference.cache
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Arama.resources
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Form2.resources
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.girisyap.resources
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.AnaEkran.resources
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Properties.Resources.resources
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Rezervasyon_Görüntüleme.resources
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı Saha Rezervasyonu.csproj.GenerateResource.cache
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı Saha Rezervasyonu.csproj.CoreCompileInputs.cache
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı Saha Rezervasyonu.exe
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı Saha Rezervasyonu.pdb

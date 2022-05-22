@@ -1,4 +1,8 @@
-﻿namespace Halı_Saha_Rezervasyonu
+﻿using System;
+using System.Collections;
+using System.Reflection.Emit;
+
+namespace Halı_Saha_Rezervasyonu
 {
     partial class Rezervasyon_Görüntüleme
     {
@@ -7,15 +11,18 @@
         /// </summary>
         private System.ComponentModel.IContainer components = null;
 
+
         /// <summary>
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
         protected override void Dispose(bool disposing)
         {
+
             if (disposing && (components != null))
             {
                 components.Dispose();
+
             }
             base.Dispose(disposing);
         }
@@ -26,849 +33,957 @@
         /// Required method for Designer support - do not modify
         /// the contents of this method with the code editor.
         /// </summary>
+        /// 
+
+
+
         private void InitializeComponent()
         {
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.label66 = new System.Windows.Forms.Label();
-            this.label65 = new System.Windows.Forms.Label();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label64 = new System.Windows.Forms.Label();
-            this.label63 = new System.Windows.Forms.Label();
-            this.label62 = new System.Windows.Forms.Label();
-            this.label61 = new System.Windows.Forms.Label();
-            this.label60 = new System.Windows.Forms.Label();
-            this.label59 = new System.Windows.Forms.Label();
-            this.label58 = new System.Windows.Forms.Label();
-            this.label57 = new System.Windows.Forms.Label();
-            this.label56 = new System.Windows.Forms.Label();
-            this.label55 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label48 = new System.Windows.Forms.Label();
-            this.label47 = new System.Windows.Forms.Label();
-            this.label46 = new System.Windows.Forms.Label();
-            this.label45 = new System.Windows.Forms.Label();
-            this.label44 = new System.Windows.Forms.Label();
-            this.label43 = new System.Windows.Forms.Label();
-            this.label42 = new System.Windows.Forms.Label();
-            this.label41 = new System.Windows.Forms.Label();
-            this.label40 = new System.Windows.Forms.Label();
-            this.label39 = new System.Windows.Forms.Label();
-            this.label38 = new System.Windows.Forms.Label();
-            this.label37 = new System.Windows.Forms.Label();
-            this.label36 = new System.Windows.Forms.Label();
-            this.label35 = new System.Windows.Forms.Label();
-            this.label34 = new System.Windows.Forms.Label();
-            this.label33 = new System.Windows.Forms.Label();
-            this.label32 = new System.Windows.Forms.Label();
-            this.label31 = new System.Windows.Forms.Label();
-            this.label30 = new System.Windows.Forms.Label();
-            this.label29 = new System.Windows.Forms.Label();
-            this.label28 = new System.Windows.Forms.Label();
-            this.label27 = new System.Windows.Forms.Label();
-            this.label26 = new System.Windows.Forms.Label();
-            this.label25 = new System.Windows.Forms.Label();
-            this.label24 = new System.Windows.Forms.Label();
-            this.label23 = new System.Windows.Forms.Label();
-            this.label22 = new System.Windows.Forms.Label();
-            this.label21 = new System.Windows.Forms.Label();
-            this.label20 = new System.Windows.Forms.Label();
-            this.label19 = new System.Windows.Forms.Label();
-            this.label18 = new System.Windows.Forms.Label();
-            this.label17 = new System.Windows.Forms.Label();
-            this.pazartesi19 = new System.Windows.Forms.Label();
-            this.pazartesi23 = new System.Windows.Forms.Label();
-            this.pazartesi22 = new System.Windows.Forms.Label();
-            this.pazartesi21 = new System.Windows.Forms.Label();
-            this.pazartesi20 = new System.Windows.Forms.Label();
+            this.lblpzt = new System.Windows.Forms.Label();
+            this.lblsali = new System.Windows.Forms.Label();
+            this.Carsamba = new System.Windows.Forms.Label();
+            this.lblpers = new System.Windows.Forms.Label();
+            this.lblcuma = new System.Windows.Forms.Label();
+            this.lblcmt = new System.Windows.Forms.Label();
+            this.lblpaz = new System.Windows.Forms.Label();
+            this.Pazartesi16 = new System.Windows.Forms.Label();
+            this.Pazartesi17 = new System.Windows.Forms.Label();
+            this.Pazartesi18 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.pazartesi18 = new System.Windows.Forms.Label();
-            this.pazartesi17 = new System.Windows.Forms.Label();
-            this.pazartesi16 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
+            this.Pazartesi20 = new System.Windows.Forms.Label();
+            this.Pazartesi21 = new System.Windows.Forms.Label();
+            this.Pazartesi22 = new System.Windows.Forms.Label();
+            this.Pazartesi23 = new System.Windows.Forms.Label();
+            this.Pazartesi19 = new System.Windows.Forms.Label();
+            this.Sali16 = new System.Windows.Forms.Label();
+            this.Cumartesi16 = new System.Windows.Forms.Label();
+            this.Cuma16 = new System.Windows.Forms.Label();
+            this.Persembe16 = new System.Windows.Forms.Label();
+            this.Carsamba16 = new System.Windows.Forms.Label();
+            this.Pazar16 = new System.Windows.Forms.Label();
+            this.Pazar17 = new System.Windows.Forms.Label();
+            this.Cumartesi17 = new System.Windows.Forms.Label();
+            this.Cuma17 = new System.Windows.Forms.Label();
+            this.Persembe17 = new System.Windows.Forms.Label();
+            this.Carsamba17 = new System.Windows.Forms.Label();
+            this.Sali17 = new System.Windows.Forms.Label();
+            this.Cumartesi18 = new System.Windows.Forms.Label();
+            this.Cuma18 = new System.Windows.Forms.Label();
+            this.Persembe18 = new System.Windows.Forms.Label();
+            this.Carsamba18 = new System.Windows.Forms.Label();
+            this.Sali18 = new System.Windows.Forms.Label();
+            this.Pazar18 = new System.Windows.Forms.Label();
+            this.Persembe19 = new System.Windows.Forms.Label();
+            this.Pazar19 = new System.Windows.Forms.Label();
+            this.Cumartesi19 = new System.Windows.Forms.Label();
+            this.Cuma19 = new System.Windows.Forms.Label();
+            this.Carsamba19 = new System.Windows.Forms.Label();
+            this.Sali19 = new System.Windows.Forms.Label();
+            this.Sali20 = new System.Windows.Forms.Label();
+            this.Cumartesi20 = new System.Windows.Forms.Label();
+            this.Cuma20 = new System.Windows.Forms.Label();
+            this.Persembe20 = new System.Windows.Forms.Label();
+            this.Carsamba20 = new System.Windows.Forms.Label();
+            this.Pazar20 = new System.Windows.Forms.Label();
+            this.Pazar21 = new System.Windows.Forms.Label();
+            this.Cumartesi21 = new System.Windows.Forms.Label();
+            this.Cuma21 = new System.Windows.Forms.Label();
+            this.Persembe21 = new System.Windows.Forms.Label();
+            this.Carsamba21 = new System.Windows.Forms.Label();
+            this.Sali21 = new System.Windows.Forms.Label();
+            this.Cumartesi22 = new System.Windows.Forms.Label();
+            this.Cuma22 = new System.Windows.Forms.Label();
+            this.Persembe22 = new System.Windows.Forms.Label();
+            this.Carsamba22 = new System.Windows.Forms.Label();
+            this.Sali22 = new System.Windows.Forms.Label();
+            this.Pazar22 = new System.Windows.Forms.Label();
+            this.Cumartesi23 = new System.Windows.Forms.Label();
+            this.Cuma23 = new System.Windows.Forms.Label();
+            this.Persembe23 = new System.Windows.Forms.Label();
+            this.Carsamba23 = new System.Windows.Forms.Label();
+            this.Sali23 = new System.Windows.Forms.Label();
+            this.Pazar23 = new System.Windows.Forms.Label();
+            this.btnrzrv = new System.Windows.Forms.Button();
+            this.lblgun = new System.Windows.Forms.Label();
+            this.lblsaat = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.cmbgun = new System.Windows.Forms.ComboBox();
+            this.cmbsaat = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
-            // comboBox2
-            // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Location = new System.Drawing.Point(89, 416);
-            this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(121, 21);
-            this.comboBox2.TabIndex = 137;
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(89, 382);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1.TabIndex = 136;
-            // 
-            // label66
-            // 
-            this.label66.AutoSize = true;
-            this.label66.Location = new System.Drawing.Point(7, 419);
-            this.label66.Name = "label66";
-            this.label66.Size = new System.Drawing.Size(41, 13);
-            this.label66.TabIndex = 135;
-            this.label66.Text = "label66";
-            // 
-            // label65
-            // 
-            this.label65.AutoSize = true;
-            this.label65.Location = new System.Drawing.Point(7, 390);
-            this.label65.Name = "label65";
-            this.label65.Size = new System.Drawing.Size(41, 13);
-            this.label65.TabIndex = 134;
-            this.label65.Text = "label65";
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(515, 390);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 133;
-            this.button1.Text = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
-            // 
-            // label64
-            // 
-            this.label64.AutoSize = true;
-            this.label64.Location = new System.Drawing.Point(729, 349);
-            this.label64.Name = "label64";
-            this.label64.Size = new System.Drawing.Size(64, 13);
-            this.label64.TabIndex = 132;
-            this.label64.Text = "23.00-00.00";
-            // 
-            // label63
-            // 
-            this.label63.AutoSize = true;
-            this.label63.Location = new System.Drawing.Point(729, 84);
-            this.label63.Name = "label63";
-            this.label63.Size = new System.Drawing.Size(64, 13);
-            this.label63.TabIndex = 131;
-            this.label63.Text = "23.00-00.00";
-            // 
-            // label62
-            // 
-            this.label62.AutoSize = true;
-            this.label62.Location = new System.Drawing.Point(729, 132);
-            this.label62.Name = "label62";
-            this.label62.Size = new System.Drawing.Size(64, 13);
-            this.label62.TabIndex = 130;
-            this.label62.Text = "23.00-00.00";
-            // 
-            // label61
-            // 
-            this.label61.AutoSize = true;
-            this.label61.Location = new System.Drawing.Point(729, 180);
-            this.label61.Name = "label61";
-            this.label61.Size = new System.Drawing.Size(64, 13);
-            this.label61.TabIndex = 129;
-            this.label61.Text = "23.00-00.00";
-            // 
-            // label60
-            // 
-            this.label60.AutoSize = true;
-            this.label60.Location = new System.Drawing.Point(729, 231);
-            this.label60.Name = "label60";
-            this.label60.Size = new System.Drawing.Size(64, 13);
-            this.label60.TabIndex = 128;
-            this.label60.Text = "23.00-00.00";
-            // 
-            // label59
-            // 
-            this.label59.AutoSize = true;
-            this.label59.Location = new System.Drawing.Point(729, 286);
-            this.label59.Name = "label59";
-            this.label59.Size = new System.Drawing.Size(64, 13);
-            this.label59.TabIndex = 127;
-            this.label59.Text = "23.00-00.00";
-            // 
-            // label58
-            // 
-            this.label58.AutoSize = true;
-            this.label58.Location = new System.Drawing.Point(647, 349);
-            this.label58.Name = "label58";
-            this.label58.Size = new System.Drawing.Size(64, 13);
-            this.label58.TabIndex = 126;
-            this.label58.Text = "22.00-23.00";
-            // 
-            // label57
-            // 
-            this.label57.AutoSize = true;
-            this.label57.Location = new System.Drawing.Point(647, 84);
-            this.label57.Name = "label57";
-            this.label57.Size = new System.Drawing.Size(64, 13);
-            this.label57.TabIndex = 125;
-            this.label57.Text = "22.00-23.00";
-            // 
-            // label56
-            // 
-            this.label56.AutoSize = true;
-            this.label56.Location = new System.Drawing.Point(647, 132);
-            this.label56.Name = "label56";
-            this.label56.Size = new System.Drawing.Size(64, 13);
-            this.label56.TabIndex = 124;
-            this.label56.Text = "22.00-23.00";
-            // 
-            // label55
-            // 
-            this.label55.AutoSize = true;
-            this.label55.Location = new System.Drawing.Point(647, 180);
-            this.label55.Name = "label55";
-            this.label55.Size = new System.Drawing.Size(64, 13);
-            this.label55.TabIndex = 123;
-            this.label55.Text = "22.00-23.00";
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Location = new System.Drawing.Point(647, 231);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(64, 13);
-            this.label54.TabIndex = 122;
-            this.label54.Text = "22.00-23.00";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Location = new System.Drawing.Point(647, 286);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(64, 13);
-            this.label53.TabIndex = 121;
-            this.label53.Text = "22.00-23.00";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Location = new System.Drawing.Point(558, 84);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(64, 13);
-            this.label52.TabIndex = 120;
-            this.label52.Text = "21.00-22.00";
-            // 
-            // label51
-            // 
-            this.label51.AutoSize = true;
-            this.label51.Location = new System.Drawing.Point(558, 132);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(64, 13);
-            this.label51.TabIndex = 119;
-            this.label51.Text = "21.00-22.00";
-            // 
-            // label50
-            // 
-            this.label50.AutoSize = true;
-            this.label50.Location = new System.Drawing.Point(558, 180);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(64, 13);
-            this.label50.TabIndex = 118;
-            this.label50.Text = "21.00-22.00";
-            // 
-            // label49
-            // 
-            this.label49.AutoSize = true;
-            this.label49.Location = new System.Drawing.Point(558, 231);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(64, 13);
-            this.label49.TabIndex = 117;
-            this.label49.Text = "21.00-22.00";
-            // 
-            // label48
-            // 
-            this.label48.AutoSize = true;
-            this.label48.Location = new System.Drawing.Point(558, 286);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(64, 13);
-            this.label48.TabIndex = 116;
-            this.label48.Text = "21.00-22.00";
-            // 
-            // label47
-            // 
-            this.label47.AutoSize = true;
-            this.label47.Location = new System.Drawing.Point(558, 349);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(64, 13);
-            this.label47.TabIndex = 115;
-            this.label47.Text = "21.00-22.00";
-            // 
-            // label46
-            // 
-            this.label46.AutoSize = true;
-            this.label46.Location = new System.Drawing.Point(467, 349);
-            this.label46.Name = "label46";
-            this.label46.Size = new System.Drawing.Size(64, 13);
-            this.label46.TabIndex = 114;
-            this.label46.Text = "20.00-21.00";
-            // 
-            // label45
-            // 
-            this.label45.AutoSize = true;
-            this.label45.Location = new System.Drawing.Point(467, 132);
-            this.label45.Name = "label45";
-            this.label45.Size = new System.Drawing.Size(64, 13);
-            this.label45.TabIndex = 113;
-            this.label45.Text = "20.00-21.00";
-            // 
-            // label44
-            // 
-            this.label44.AutoSize = true;
-            this.label44.Location = new System.Drawing.Point(467, 180);
-            this.label44.Name = "label44";
-            this.label44.Size = new System.Drawing.Size(64, 13);
-            this.label44.TabIndex = 112;
-            this.label44.Text = "20.00-21.00";
-            // 
-            // label43
-            // 
-            this.label43.AutoSize = true;
-            this.label43.Location = new System.Drawing.Point(467, 231);
-            this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(64, 13);
-            this.label43.TabIndex = 111;
-            this.label43.Text = "20.00-21.00";
-            // 
-            // label42
-            // 
-            this.label42.AutoSize = true;
-            this.label42.Location = new System.Drawing.Point(467, 286);
-            this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(64, 13);
-            this.label42.TabIndex = 110;
-            this.label42.Text = "20.00-21.00";
-            // 
-            // label41
-            // 
-            this.label41.AutoSize = true;
-            this.label41.Location = new System.Drawing.Point(467, 84);
-            this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(64, 13);
-            this.label41.TabIndex = 109;
-            this.label41.Text = "20.00-21.00";
-            // 
-            // label40
-            // 
-            this.label40.AutoSize = true;
-            this.label40.Location = new System.Drawing.Point(379, 84);
-            this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(64, 13);
-            this.label40.TabIndex = 108;
-            this.label40.Text = "19.00-20.00";
-            // 
-            // label39
-            // 
-            this.label39.AutoSize = true;
-            this.label39.Location = new System.Drawing.Point(379, 132);
-            this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(64, 13);
-            this.label39.TabIndex = 107;
-            this.label39.Text = "19.00-20.00";
-            // 
-            // label38
-            // 
-            this.label38.AutoSize = true;
-            this.label38.Location = new System.Drawing.Point(379, 231);
-            this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(64, 13);
-            this.label38.TabIndex = 106;
-            this.label38.Text = "19.00-20.00";
-            // 
-            // label37
-            // 
-            this.label37.AutoSize = true;
-            this.label37.Location = new System.Drawing.Point(379, 286);
-            this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(64, 13);
-            this.label37.TabIndex = 105;
-            this.label37.Text = "19.00-20.00";
-            // 
-            // label36
-            // 
-            this.label36.AutoSize = true;
-            this.label36.Location = new System.Drawing.Point(379, 349);
-            this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(64, 13);
-            this.label36.TabIndex = 104;
-            this.label36.Text = "19.00-20.00";
-            // 
-            // label35
-            // 
-            this.label35.AutoSize = true;
-            this.label35.Location = new System.Drawing.Point(379, 180);
-            this.label35.Name = "label35";
-            this.label35.Size = new System.Drawing.Size(64, 13);
-            this.label35.TabIndex = 103;
-            this.label35.Text = "19.00-20.00";
-            // 
-            // label34
-            // 
-            this.label34.AutoSize = true;
-            this.label34.Location = new System.Drawing.Point(288, 349);
-            this.label34.Name = "label34";
-            this.label34.Size = new System.Drawing.Size(64, 13);
-            this.label34.TabIndex = 102;
-            this.label34.Text = "18.00-19.00";
-            // 
-            // label33
-            // 
-            this.label33.AutoSize = true;
-            this.label33.Location = new System.Drawing.Point(288, 84);
-            this.label33.Name = "label33";
-            this.label33.Size = new System.Drawing.Size(64, 13);
-            this.label33.TabIndex = 101;
-            this.label33.Text = "18.00-19.00";
-            // 
-            // label32
-            // 
-            this.label32.AutoSize = true;
-            this.label32.Location = new System.Drawing.Point(288, 132);
-            this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(64, 13);
-            this.label32.TabIndex = 100;
-            this.label32.Text = "18.00-19.00";
-            // 
-            // label31
-            // 
-            this.label31.AutoSize = true;
-            this.label31.Location = new System.Drawing.Point(288, 180);
-            this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(64, 13);
-            this.label31.TabIndex = 99;
-            this.label31.Text = "18.00-19.00";
-            // 
-            // label30
-            // 
-            this.label30.AutoSize = true;
-            this.label30.Location = new System.Drawing.Point(288, 231);
-            this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(64, 13);
-            this.label30.TabIndex = 98;
-            this.label30.Text = "18.00-19.00";
-            // 
-            // label29
-            // 
-            this.label29.AutoSize = true;
-            this.label29.Location = new System.Drawing.Point(288, 286);
-            this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(64, 13);
-            this.label29.TabIndex = 97;
-            this.label29.Text = "18.00-19.00";
-            // 
-            // label28
-            // 
-            this.label28.AutoSize = true;
-            this.label28.Location = new System.Drawing.Point(191, 84);
-            this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(64, 13);
-            this.label28.TabIndex = 96;
-            this.label28.Text = "17.00-18.00";
-            // 
-            // label27
-            // 
-            this.label27.AutoSize = true;
-            this.label27.Location = new System.Drawing.Point(191, 132);
-            this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(64, 13);
-            this.label27.TabIndex = 95;
-            this.label27.Text = "17.00-18.00";
-            // 
-            // label26
-            // 
-            this.label26.AutoSize = true;
-            this.label26.Location = new System.Drawing.Point(191, 180);
-            this.label26.Name = "label26";
-            this.label26.Size = new System.Drawing.Size(64, 13);
-            this.label26.TabIndex = 94;
-            this.label26.Text = "17.00-18.00";
-            // 
-            // label25
-            // 
-            this.label25.AutoSize = true;
-            this.label25.Location = new System.Drawing.Point(191, 231);
-            this.label25.Name = "label25";
-            this.label25.Size = new System.Drawing.Size(64, 13);
-            this.label25.TabIndex = 93;
-            this.label25.Text = "17.00-18.00";
-            // 
-            // label24
-            // 
-            this.label24.AutoSize = true;
-            this.label24.Location = new System.Drawing.Point(191, 286);
-            this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(64, 13);
-            this.label24.TabIndex = 92;
-            this.label24.Text = "17.00-18.00";
-            // 
-            // label23
-            // 
-            this.label23.AutoSize = true;
-            this.label23.Location = new System.Drawing.Point(191, 349);
-            this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(64, 13);
-            this.label23.TabIndex = 91;
-            this.label23.Text = "17.00-18.00";
-            // 
-            // label22
-            // 
-            this.label22.AutoSize = true;
-            this.label22.Location = new System.Drawing.Point(86, 349);
-            this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(64, 13);
-            this.label22.TabIndex = 90;
-            this.label22.Text = "16.00-17.00";
-            // 
-            // label21
-            // 
-            this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(86, 132);
-            this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(64, 13);
-            this.label21.TabIndex = 89;
-            this.label21.Text = "16.00-17.00";
-            // 
-            // label20
-            // 
-            this.label20.AutoSize = true;
-            this.label20.Location = new System.Drawing.Point(86, 180);
-            this.label20.Name = "label20";
-            this.label20.Size = new System.Drawing.Size(64, 13);
-            this.label20.TabIndex = 88;
-            this.label20.Text = "16.00-17.00";
-            // 
-            // label19
-            // 
-            this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(86, 231);
-            this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(64, 13);
-            this.label19.TabIndex = 87;
-            this.label19.Text = "16.00-17.00";
-            // 
-            // label18
-            // 
-            this.label18.AutoSize = true;
-            this.label18.Location = new System.Drawing.Point(86, 286);
-            this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(64, 13);
-            this.label18.TabIndex = 86;
-            this.label18.Text = "16.00-17.00";
-            // 
-            // label17
-            // 
-            this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(86, 84);
-            this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(64, 13);
-            this.label17.TabIndex = 85;
-            this.label17.Text = "16.00-17.00";
-            // 
-            // pazartesi19
-            // 
-            this.pazartesi19.AutoSize = true;
-            this.pazartesi19.Location = new System.Drawing.Point(379, 37);
-            this.pazartesi19.Name = "pazartesi19";
-            this.pazartesi19.Size = new System.Drawing.Size(64, 13);
-            this.pazartesi19.TabIndex = 84;
-            this.pazartesi19.Text = "19.00-20.00";
-            // 
-            // pazartesi23
-            // 
-            this.pazartesi23.AutoSize = true;
-            this.pazartesi23.Location = new System.Drawing.Point(729, 37);
-            this.pazartesi23.Name = "pazartesi23";
-            this.pazartesi23.Size = new System.Drawing.Size(64, 13);
-            this.pazartesi23.TabIndex = 83;
-            this.pazartesi23.Text = "23.00-00.00";
-            // 
-            // pazartesi22
-            // 
-            this.pazartesi22.AutoSize = true;
-            this.pazartesi22.Location = new System.Drawing.Point(647, 37);
-            this.pazartesi22.Name = "pazartesi22";
-            this.pazartesi22.Size = new System.Drawing.Size(64, 13);
-            this.pazartesi22.TabIndex = 82;
-            this.pazartesi22.Text = "22.00-23.00";
-            // 
-            // pazartesi21
-            // 
-            this.pazartesi21.AutoSize = true;
-            this.pazartesi21.Location = new System.Drawing.Point(558, 37);
-            this.pazartesi21.Name = "pazartesi21";
-            this.pazartesi21.Size = new System.Drawing.Size(64, 13);
-            this.pazartesi21.TabIndex = 81;
-            this.pazartesi21.Text = "21.00-22.00";
-            // 
-            // pazartesi20
-            // 
-            this.pazartesi20.AutoSize = true;
-            this.pazartesi20.Location = new System.Drawing.Point(467, 37);
-            this.pazartesi20.Name = "pazartesi20";
-            this.pazartesi20.Size = new System.Drawing.Size(64, 13);
-            this.pazartesi20.TabIndex = 80;
-            this.pazartesi20.Text = "20.00-21.00";
+            // lblpzt
+            // 
+            this.lblpzt.AutoSize = true;
+            this.lblpzt.Location = new System.Drawing.Point(12, 63);
+            this.lblpzt.Name = "lblpzt";
+            this.lblpzt.Size = new System.Drawing.Size(50, 13);
+            this.lblpzt.TabIndex = 0;
+            this.lblpzt.Text = "Pazartesi";
+            // 
+            // lblsali
+            // 
+            this.lblsali.AutoSize = true;
+            this.lblsali.Location = new System.Drawing.Point(12, 110);
+            this.lblsali.Name = "lblsali";
+            this.lblsali.Size = new System.Drawing.Size(24, 13);
+            this.lblsali.TabIndex = 1;
+            this.lblsali.Text = "Salı";
+            // 
+            // Carsamba
+            // 
+            this.Carsamba.AutoSize = true;
+            this.Carsamba.Location = new System.Drawing.Point(12, 158);
+            this.Carsamba.Name = "Carsamba";
+            this.Carsamba.Size = new System.Drawing.Size(54, 13);
+            this.Carsamba.TabIndex = 2;
+            this.Carsamba.Text = "Çarşamba";
+            // 
+            // lblpers
+            // 
+            this.lblpers.AutoSize = true;
+            this.lblpers.Location = new System.Drawing.Point(12, 206);
+            this.lblpers.Name = "lblpers";
+            this.lblpers.Size = new System.Drawing.Size(54, 13);
+            this.lblpers.TabIndex = 3;
+            this.lblpers.Text = "Perşembe";
+            // 
+            // lblcuma
+            // 
+            this.lblcuma.AutoSize = true;
+            this.lblcuma.Location = new System.Drawing.Point(12, 257);
+            this.lblcuma.Name = "lblcuma";
+            this.lblcuma.Size = new System.Drawing.Size(34, 13);
+            this.lblcuma.TabIndex = 4;
+            this.lblcuma.Text = "Cuma";
+            // 
+            // lblcmt
+            // 
+            this.lblcmt.AutoSize = true;
+            this.lblcmt.Location = new System.Drawing.Point(12, 312);
+            this.lblcmt.Name = "lblcmt";
+            this.lblcmt.Size = new System.Drawing.Size(53, 13);
+            this.lblcmt.TabIndex = 5;
+            this.lblcmt.Text = "Cumartesi";
+            //this.lblcmt.Click += new System.EventHandler(this.label6_Click);
+            // 
+            // lblpaz
+            // 
+            this.lblpaz.AutoSize = true;
+            this.lblpaz.Location = new System.Drawing.Point(12, 375);
+            this.lblpaz.Name = "lblpaz";
+            this.lblpaz.Size = new System.Drawing.Size(34, 13);
+            this.lblpaz.TabIndex = 6;
+            this.lblpaz.Text = "Pazar";
+            // 
+            // Pazartesi16
+            // 
+            this.Pazartesi16.AutoSize = true;
+            this.Pazartesi16.Location = new System.Drawing.Point(91, 63);
+            this.Pazartesi16.Name = "Pazartesi16";
+            this.Pazartesi16.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi16.TabIndex = 7;
+            this.Pazartesi16.Text = "16.00-17.00";
+            // 
+            // Pazartesi17
+            // 
+            this.Pazartesi17.AutoSize = true;
+            this.Pazartesi17.Location = new System.Drawing.Point(196, 63);
+            this.Pazartesi17.Name = "Pazartesi17";
+            this.Pazartesi17.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi17.TabIndex = 8;
+            this.Pazartesi17.Text = "17.00-18.00";
+            // 
+            // Pazartesi18
+            // 
+            this.Pazartesi18.AutoSize = true;
+            this.Pazartesi18.Location = new System.Drawing.Point(293, 63);
+            this.Pazartesi18.Name = "Pazartesi18";
+            this.Pazartesi18.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi18.TabIndex = 9;
+            this.Pazartesi18.Text = "18.00-19.00";
+            //this.Pazartesi18.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(371, 13);
+            this.label11.Location = new System.Drawing.Point(376, 39);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(0, 13);
-            this.label11.TabIndex = 79;
+            this.label11.TabIndex = 10;
             // 
-            // pazartesi18
+            // Pazartesi20
             // 
-            this.pazartesi18.AutoSize = true;
-            this.pazartesi18.Location = new System.Drawing.Point(288, 37);
-            this.pazartesi18.Name = "pazartesi18";
-            this.pazartesi18.Size = new System.Drawing.Size(64, 13);
-            this.pazartesi18.TabIndex = 78;
-            this.pazartesi18.Text = "18.00-19.00";
+            this.Pazartesi20.AutoSize = true;
+            this.Pazartesi20.Location = new System.Drawing.Point(472, 63);
+            this.Pazartesi20.Name = "Pazartesi20";
+            this.Pazartesi20.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi20.TabIndex = 11;
+            this.Pazartesi20.Text = "20.00-21.00";
             // 
-            // pazartesi17
+            // Pazartesi21
             // 
-            this.pazartesi17.AutoSize = true;
-            this.pazartesi17.Location = new System.Drawing.Point(191, 37);
-            this.pazartesi17.Name = "pazartesi17";
-            this.pazartesi17.Size = new System.Drawing.Size(64, 13);
-            this.pazartesi17.TabIndex = 77;
-            this.pazartesi17.Text = "17.00-18.00";
+            this.Pazartesi21.AutoSize = true;
+            this.Pazartesi21.Location = new System.Drawing.Point(563, 63);
+            this.Pazartesi21.Name = "Pazartesi21";
+            this.Pazartesi21.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi21.TabIndex = 12;
+            this.Pazartesi21.Text = "21.00-22.00";
             // 
-            // pazartesi16
+            // Pazartesi22
             // 
-            this.pazartesi16.AutoSize = true;
-            this.pazartesi16.Location = new System.Drawing.Point(86, 37);
-            this.pazartesi16.Name = "pazartesi16";
-            this.pazartesi16.Size = new System.Drawing.Size(64, 13);
-            this.pazartesi16.TabIndex = 76;
-            this.pazartesi16.Text = "16.00-17.00";
+            this.Pazartesi22.AutoSize = true;
+            this.Pazartesi22.Location = new System.Drawing.Point(652, 63);
+            this.Pazartesi22.Name = "Pazartesi22";
+            this.Pazartesi22.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi22.TabIndex = 13;
+            this.Pazartesi22.Text = "22.00-23.00";
             // 
-            // label7
+            // Pazartesi23
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(7, 349);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(34, 13);
-            this.label7.TabIndex = 75;
-            this.label7.Text = "Pazar";
+            this.Pazartesi23.AutoSize = true;
+            this.Pazartesi23.Location = new System.Drawing.Point(734, 63);
+            this.Pazartesi23.Name = "Pazartesi23";
+            this.Pazartesi23.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi23.TabIndex = 14;
+            this.Pazartesi23.Text = "23.00-00.00";
             // 
-            // label6
+            // Pazartesi19
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(7, 286);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(53, 13);
-            this.label6.TabIndex = 74;
-            this.label6.Text = "Cumartesi";
+            this.Pazartesi19.AutoSize = true;
+            this.Pazartesi19.Location = new System.Drawing.Point(384, 63);
+            this.Pazartesi19.Name = "Pazartesi19";
+            this.Pazartesi19.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi19.TabIndex = 15;
+            this.Pazartesi19.Text = "19.00-20.00";
+            //this.Pazartesi19.Click += new System.EventHandler(this.label16_Click);
             // 
-            // label5
+            // Sali16
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(7, 231);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(34, 13);
-            this.label5.TabIndex = 73;
-            this.label5.Text = "Cuma";
+            this.Sali16.AutoSize = true;
+            this.Sali16.Location = new System.Drawing.Point(91, 110);
+            this.Sali16.Name = "Sali16";
+            this.Sali16.Size = new System.Drawing.Size(64, 13);
+            this.Sali16.TabIndex = 16;
+            this.Sali16.Text = "16.00-17.00";
             // 
-            // label4
+            // Cumartesi16
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(7, 180);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(54, 13);
-            this.label4.TabIndex = 72;
-            this.label4.Text = "Perşembe";
+            this.Cumartesi16.AutoSize = true;
+            this.Cumartesi16.Location = new System.Drawing.Point(91, 312);
+            this.Cumartesi16.Name = "Cumartesi16";
+            this.Cumartesi16.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi16.TabIndex = 17;
+            this.Cumartesi16.Text = "16.00-17.00";
             // 
-            // label3
+            // Cuma16
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(7, 132);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(54, 13);
-            this.label3.TabIndex = 71;
-            this.label3.Text = "Çarşamba";
+            this.Cuma16.AutoSize = true;
+            this.Cuma16.Location = new System.Drawing.Point(91, 257);
+            this.Cuma16.Name = "Cuma16";
+            this.Cuma16.Size = new System.Drawing.Size(64, 13);
+            this.Cuma16.TabIndex = 18;
+            this.Cuma16.Text = "16.00-17.00";
             // 
-            // label2
+            // Persembe16
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(7, 84);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(24, 13);
-            this.label2.TabIndex = 70;
-            this.label2.Text = "Salı";
+            this.Persembe16.AutoSize = true;
+            this.Persembe16.Location = new System.Drawing.Point(91, 206);
+            this.Persembe16.Name = "Persembe16";
+            this.Persembe16.Size = new System.Drawing.Size(64, 13);
+            this.Persembe16.TabIndex = 19;
+            this.Persembe16.Text = "16.00-17.00";
             // 
-            // label1
+            // Carsamba16
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(7, 37);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(50, 13);
-            this.label1.TabIndex = 69;
-            this.label1.Text = "Pazartesi";
+            this.Carsamba16.AutoSize = true;
+            this.Carsamba16.Location = new System.Drawing.Point(91, 158);
+            this.Carsamba16.Name = "Carsamba16";
+            this.Carsamba16.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba16.TabIndex = 20;
+            this.Carsamba16.Text = "16.00-17.00";
+            // 
+            // Pazar16
+            // 
+            this.Pazar16.AutoSize = true;
+            this.Pazar16.Location = new System.Drawing.Point(91, 375);
+            this.Pazar16.Name = "Pazar16";
+            this.Pazar16.Size = new System.Drawing.Size(64, 13);
+            this.Pazar16.TabIndex = 21;
+            this.Pazar16.Text = "16.00-17.00";
+            // 
+            // Pazar17
+            // 
+            this.Pazar17.AutoSize = true;
+            this.Pazar17.Location = new System.Drawing.Point(196, 375);
+            this.Pazar17.Name = "Pazar17";
+            this.Pazar17.Size = new System.Drawing.Size(64, 13);
+            this.Pazar17.TabIndex = 22;
+            this.Pazar17.Text = "17.00-18.00";
+            // 
+            // Cumartesi17
+            // 
+            this.Cumartesi17.AutoSize = true;
+            this.Cumartesi17.Location = new System.Drawing.Point(196, 312);
+            this.Cumartesi17.Name = "Cumartesi17";
+            this.Cumartesi17.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi17.TabIndex = 23;
+            this.Cumartesi17.Text = "17.00-18.00";
+            // 
+            // Cuma17
+            // 
+            this.Cuma17.AutoSize = true;
+            this.Cuma17.Location = new System.Drawing.Point(196, 257);
+            this.Cuma17.Name = "Cuma17";
+            this.Cuma17.Size = new System.Drawing.Size(64, 13);
+            this.Cuma17.TabIndex = 24;
+            this.Cuma17.Text = "17.00-18.00";
+            // 
+            // Persembe17
+            // 
+            this.Persembe17.AutoSize = true;
+            this.Persembe17.Location = new System.Drawing.Point(196, 206);
+            this.Persembe17.Name = "Persembe17";
+            this.Persembe17.Size = new System.Drawing.Size(64, 13);
+            this.Persembe17.TabIndex = 25;
+            this.Persembe17.Text = "17.00-18.00";
+            // 
+            // Carsamba17
+            // 
+            this.Carsamba17.AutoSize = true;
+            this.Carsamba17.Location = new System.Drawing.Point(196, 158);
+            this.Carsamba17.Name = "Carsamba17";
+            this.Carsamba17.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba17.TabIndex = 26;
+            this.Carsamba17.Text = "17.00-18.00";
+            // 
+            // Sali17
+            // 
+            this.Sali17.AutoSize = true;
+            this.Sali17.Location = new System.Drawing.Point(196, 110);
+            this.Sali17.Name = "Sali17";
+            this.Sali17.Size = new System.Drawing.Size(64, 13);
+            this.Sali17.TabIndex = 27;
+            this.Sali17.Text = "17.00-18.00";
+            // 
+            // Cumartesi18
+            // 
+            this.Cumartesi18.AutoSize = true;
+            this.Cumartesi18.Location = new System.Drawing.Point(293, 312);
+            this.Cumartesi18.Name = "Cumartesi18";
+            this.Cumartesi18.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi18.TabIndex = 28;
+            this.Cumartesi18.Text = "18.00-19.00";
+            // 
+            // Cuma18
+            // 
+            this.Cuma18.AutoSize = true;
+            this.Cuma18.Location = new System.Drawing.Point(293, 257);
+            this.Cuma18.Name = "Cuma18";
+            this.Cuma18.Size = new System.Drawing.Size(64, 13);
+            this.Cuma18.TabIndex = 29;
+            this.Cuma18.Text = "18.00-19.00";
+            // 
+            // Persembe18
+            // 
+            this.Persembe18.AutoSize = true;
+            this.Persembe18.Location = new System.Drawing.Point(293, 206);
+            this.Persembe18.Name = "Persembe18";
+            this.Persembe18.Size = new System.Drawing.Size(64, 13);
+            this.Persembe18.TabIndex = 30;
+            this.Persembe18.Text = "18.00-19.00";
+            // 
+            // Carsamba18
+            // 
+            this.Carsamba18.AutoSize = true;
+            this.Carsamba18.Location = new System.Drawing.Point(293, 158);
+            this.Carsamba18.Name = "Carsamba18";
+            this.Carsamba18.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba18.TabIndex = 31;
+            this.Carsamba18.Text = "18.00-19.00";
+            // 
+            // Sali18
+            // 
+            this.Sali18.AutoSize = true;
+            this.Sali18.Location = new System.Drawing.Point(293, 110);
+            this.Sali18.Name = "Sali18";
+            this.Sali18.Size = new System.Drawing.Size(64, 13);
+            this.Sali18.TabIndex = 32;
+            this.Sali18.Text = "18.00-19.00";
+            // 
+            // Pazar18
+            // 
+            this.Pazar18.AutoSize = true;
+            this.Pazar18.Location = new System.Drawing.Point(293, 375);
+            this.Pazar18.Name = "Pazar18";
+            this.Pazar18.Size = new System.Drawing.Size(64, 13);
+            this.Pazar18.TabIndex = 33;
+            this.Pazar18.Text = "18.00-19.00";
+            // 
+            // Persembe19
+            // 
+            this.Persembe19.AutoSize = true;
+            this.Persembe19.Location = new System.Drawing.Point(384, 206);
+            this.Persembe19.Name = "Persembe19";
+            this.Persembe19.Size = new System.Drawing.Size(64, 13);
+            this.Persembe19.TabIndex = 34;
+            this.Persembe19.Text = "19.00-20.00";
+            // 
+            // Pazar19
+            // 
+            this.Pazar19.AutoSize = true;
+            this.Pazar19.Location = new System.Drawing.Point(384, 375);
+            this.Pazar19.Name = "Pazar19";
+            this.Pazar19.Size = new System.Drawing.Size(64, 13);
+            this.Pazar19.TabIndex = 35;
+            this.Pazar19.Text = "19.00-20.00";
+            // 
+            // Cumartesi19
+            // 
+            this.Cumartesi19.AutoSize = true;
+            this.Cumartesi19.Location = new System.Drawing.Point(384, 312);
+            this.Cumartesi19.Name = "Cumartesi19";
+            this.Cumartesi19.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi19.TabIndex = 36;
+            this.Cumartesi19.Text = "19.00-20.00";
+            // 
+            // Cuma19
+            // 
+            this.Cuma19.AutoSize = true;
+            this.Cuma19.Location = new System.Drawing.Point(384, 257);
+            this.Cuma19.Name = "Cuma19";
+            this.Cuma19.Size = new System.Drawing.Size(64, 13);
+            this.Cuma19.TabIndex = 37;
+            this.Cuma19.Text = "19.00-20.00";
+            // 
+            // Carsamba19
+            // 
+            this.Carsamba19.AutoSize = true;
+            this.Carsamba19.Location = new System.Drawing.Point(384, 158);
+            this.Carsamba19.Name = "Carsamba19";
+            this.Carsamba19.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba19.TabIndex = 38;
+            this.Carsamba19.Text = "19.00-20.00";
+            // 
+            // Sali19
+            // 
+            this.Sali19.AutoSize = true;
+            this.Sali19.Location = new System.Drawing.Point(384, 110);
+            this.Sali19.Name = "Sali19";
+            this.Sali19.Size = new System.Drawing.Size(64, 13);
+            this.Sali19.TabIndex = 39;
+            this.Sali19.Text = "19.00-20.00";
+            // 
+            // Sali20
+            // 
+            this.Sali20.AutoSize = true;
+            this.Sali20.Location = new System.Drawing.Point(472, 110);
+            this.Sali20.Name = "Sali20";
+            this.Sali20.Size = new System.Drawing.Size(64, 13);
+            this.Sali20.TabIndex = 40;
+            this.Sali20.Text = "20.00-21.00";
+            // 
+            // Cumartesi20
+            // 
+            this.Cumartesi20.AutoSize = true;
+            this.Cumartesi20.Location = new System.Drawing.Point(472, 312);
+            this.Cumartesi20.Name = "Cumartesi20";
+            this.Cumartesi20.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi20.TabIndex = 41;
+            this.Cumartesi20.Text = "20.00-21.00";
+            // 
+            // Cuma20
+            // 
+            this.Cuma20.AutoSize = true;
+            this.Cuma20.Location = new System.Drawing.Point(472, 257);
+            this.Cuma20.Name = "Cuma20";
+            this.Cuma20.Size = new System.Drawing.Size(64, 13);
+            this.Cuma20.TabIndex = 42;
+            this.Cuma20.Text = "20.00-21.00";
+            // 
+            // Persembe20
+            // 
+            this.Persembe20.AutoSize = true;
+            this.Persembe20.Location = new System.Drawing.Point(472, 206);
+            this.Persembe20.Name = "Persembe20";
+            this.Persembe20.Size = new System.Drawing.Size(64, 13);
+            this.Persembe20.TabIndex = 43;
+            this.Persembe20.Text = "20.00-21.00";
+            // 
+            // Carsamba20
+            // 
+            this.Carsamba20.AutoSize = true;
+            this.Carsamba20.Location = new System.Drawing.Point(472, 158);
+            this.Carsamba20.Name = "Carsamba20";
+            this.Carsamba20.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba20.TabIndex = 44;
+            this.Carsamba20.Text = "20.00-21.00";
+            // 
+            // Pazar20
+            // 
+            this.Pazar20.AutoSize = true;
+            this.Pazar20.Location = new System.Drawing.Point(472, 375);
+            this.Pazar20.Name = "Pazar20";
+            this.Pazar20.Size = new System.Drawing.Size(64, 13);
+            this.Pazar20.TabIndex = 45;
+            this.Pazar20.Text = "20.00-21.00";
+            // 
+            // Pazar21
+            // 
+            this.Pazar21.AutoSize = true;
+            this.Pazar21.Location = new System.Drawing.Point(563, 375);
+            this.Pazar21.Name = "Pazar21";
+            this.Pazar21.Size = new System.Drawing.Size(64, 13);
+            this.Pazar21.TabIndex = 46;
+            this.Pazar21.Text = "21.00-22.00";
+            // 
+            // Cumartesi21
+            // 
+            this.Cumartesi21.AutoSize = true;
+            this.Cumartesi21.Location = new System.Drawing.Point(563, 312);
+            this.Cumartesi21.Name = "Cumartesi21";
+            this.Cumartesi21.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi21.TabIndex = 47;
+            this.Cumartesi21.Text = "21.00-22.00";
+            // 
+            // Cuma21
+            // 
+            this.Cuma21.AutoSize = true;
+            this.Cuma21.Location = new System.Drawing.Point(563, 257);
+            this.Cuma21.Name = "Cuma21";
+            this.Cuma21.Size = new System.Drawing.Size(64, 13);
+            this.Cuma21.TabIndex = 48;
+            this.Cuma21.Text = "21.00-22.00";
+            // 
+            // Persembe21
+            // 
+            this.Persembe21.AutoSize = true;
+            this.Persembe21.Location = new System.Drawing.Point(563, 206);
+            this.Persembe21.Name = "Persembe21";
+            this.Persembe21.Size = new System.Drawing.Size(64, 13);
+            this.Persembe21.TabIndex = 49;
+            this.Persembe21.Text = "21.00-22.00";
+            // 
+            // Carsamba21
+            // 
+            this.Carsamba21.AutoSize = true;
+            this.Carsamba21.Location = new System.Drawing.Point(563, 158);
+            this.Carsamba21.Name = "Carsamba21";
+            this.Carsamba21.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba21.TabIndex = 50;
+            this.Carsamba21.Text = "21.00-22.00";
+            // 
+            // Sali21
+            // 
+            this.Sali21.AutoSize = true;
+            this.Sali21.Location = new System.Drawing.Point(563, 110);
+            this.Sali21.Name = "Sali21";
+            this.Sali21.Size = new System.Drawing.Size(64, 13);
+            this.Sali21.TabIndex = 51;
+            this.Sali21.Text = "21.00-22.00";
+            // 
+            // Cumartesi22
+            // 
+            this.Cumartesi22.AutoSize = true;
+            this.Cumartesi22.Location = new System.Drawing.Point(652, 312);
+            this.Cumartesi22.Name = "Cumartesi22";
+            this.Cumartesi22.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi22.TabIndex = 52;
+            this.Cumartesi22.Text = "22.00-23.00";
+            // 
+            // Cuma22
+            // 
+            this.Cuma22.AutoSize = true;
+            this.Cuma22.Location = new System.Drawing.Point(652, 257);
+            this.Cuma22.Name = "Cuma22";
+            this.Cuma22.Size = new System.Drawing.Size(64, 13);
+            this.Cuma22.TabIndex = 53;
+            this.Cuma22.Text = "22.00-23.00";
+            // 
+            // Persembe22
+            // 
+            this.Persembe22.AutoSize = true;
+            this.Persembe22.Location = new System.Drawing.Point(652, 206);
+            this.Persembe22.Name = "Persembe22";
+            this.Persembe22.Size = new System.Drawing.Size(64, 13);
+            this.Persembe22.TabIndex = 54;
+            this.Persembe22.Text = "22.00-23.00";
+            // 
+            // Carsamba22
+            // 
+            this.Carsamba22.AutoSize = true;
+            this.Carsamba22.Location = new System.Drawing.Point(652, 158);
+            this.Carsamba22.Name = "Carsamba22";
+            this.Carsamba22.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba22.TabIndex = 55;
+            this.Carsamba22.Text = "22.00-23.00";
+            // 
+            // Sali22
+            // 
+            this.Sali22.AutoSize = true;
+            this.Sali22.Location = new System.Drawing.Point(652, 110);
+            this.Sali22.Name = "Sali22";
+            this.Sali22.Size = new System.Drawing.Size(64, 13);
+            this.Sali22.TabIndex = 56;
+            this.Sali22.Text = "22.00-23.00";
+            // 
+            // Pazar22
+            // 
+            this.Pazar22.AutoSize = true;
+            this.Pazar22.Location = new System.Drawing.Point(652, 375);
+            this.Pazar22.Name = "Pazar22";
+            this.Pazar22.Size = new System.Drawing.Size(64, 13);
+            this.Pazar22.TabIndex = 57;
+            this.Pazar22.Text = "22.00-23.00";
+            // 
+            // Cumartesi23
+            // 
+            this.Cumartesi23.AutoSize = true;
+            this.Cumartesi23.Location = new System.Drawing.Point(734, 312);
+            this.Cumartesi23.Name = "Cumartesi23";
+            this.Cumartesi23.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi23.TabIndex = 58;
+            this.Cumartesi23.Text = "23.00-00.00";
+            // 
+            // Cuma23
+            // 
+            this.Cuma23.AutoSize = true;
+            this.Cuma23.Location = new System.Drawing.Point(734, 257);
+            this.Cuma23.Name = "Cuma23";
+            this.Cuma23.Size = new System.Drawing.Size(64, 13);
+            this.Cuma23.TabIndex = 59;
+            this.Cuma23.Text = "23.00-00.00";
+            // 
+            // Persembe23
+            // 
+            this.Persembe23.AutoSize = true;
+            this.Persembe23.Location = new System.Drawing.Point(734, 206);
+            this.Persembe23.Name = "Persembe23";
+            this.Persembe23.Size = new System.Drawing.Size(64, 13);
+            this.Persembe23.TabIndex = 60;
+            this.Persembe23.Text = "23.00-00.00";
+            // 
+            // Carsamba23
+            // 
+            this.Carsamba23.AutoSize = true;
+            this.Carsamba23.Location = new System.Drawing.Point(734, 158);
+            this.Carsamba23.Name = "Carsamba23";
+            this.Carsamba23.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba23.TabIndex = 61;
+            this.Carsamba23.Text = "23.00-00.00";
+            // 
+            // Sali23
+            // 
+            this.Sali23.AutoSize = true;
+            this.Sali23.Location = new System.Drawing.Point(734, 110);
+            this.Sali23.Name = "Sali23";
+            this.Sali23.Size = new System.Drawing.Size(64, 13);
+            this.Sali23.TabIndex = 62;
+            this.Sali23.Text = "23.00-00.00";
+            // 
+            // Pazar23
+            // 
+            this.Pazar23.AutoSize = true;
+            this.Pazar23.Location = new System.Drawing.Point(734, 375);
+            this.Pazar23.Name = "Pazar23";
+            this.Pazar23.Size = new System.Drawing.Size(64, 13);
+            this.Pazar23.TabIndex = 63;
+            this.Pazar23.Text = "23.00-00.00";
+            // 
+            // btnrzrv
+            // 
+            this.btnrzrv.Location = new System.Drawing.Point(723, 416);
+            this.btnrzrv.Name = "btnrzrv";
+            this.btnrzrv.Size = new System.Drawing.Size(75, 23);
+            this.btnrzrv.TabIndex = 64;
+            this.btnrzrv.Text = "Rezerve Et";
+            this.btnrzrv.UseVisualStyleBackColor = true;
+            this.btnrzrv.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // lblgun
+            // 
+            this.lblgun.AutoSize = true;
+            this.lblgun.Location = new System.Drawing.Point(12, 416);
+            this.lblgun.Name = "lblgun";
+            this.lblgun.Size = new System.Drawing.Size(27, 13);
+            this.lblgun.TabIndex = 65;
+            this.lblgun.Text = "Gün";
+            // 
+            // lblsaat
+            // 
+            this.lblsaat.AutoSize = true;
+            this.lblsaat.Location = new System.Drawing.Point(12, 445);
+            this.lblsaat.Name = "lblsaat";
+            this.lblsaat.Size = new System.Drawing.Size(29, 13);
+            this.lblsaat.TabIndex = 66;
+            this.lblsaat.Text = "Saat";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(125, 502);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(160, 21);
+            this.comboBox1.TabIndex = 67;
+            // 
+            // comboBox2
+            // 
+            this.comboBox2.FormattingEnabled = true;
+            this.comboBox2.Location = new System.Drawing.Point(125, 544);
+            this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.comboBox2.Name = "comboBox2";
+            this.comboBox2.Size = new System.Drawing.Size(160, 21);
+            this.comboBox2.TabIndex = 68;
+            // 
+            // cmbgun
+            // 
+            this.cmbgun.FormattingEnabled = true;
+            this.cmbgun.Location = new System.Drawing.Point(94, 408);
+            this.cmbgun.Name = "cmbgun";
+            this.cmbgun.Size = new System.Drawing.Size(121, 21);
+            this.cmbgun.TabIndex = 67;
+            // 
+            // cmbsaat
+            // 
+            this.cmbsaat.FormattingEnabled = true;
+            this.cmbsaat.Items.AddRange(new object[] {
+            "16.00-17.00",
+            "17.00-18.00",
+            "18.00-19.00",
+            "19.00-20.00",
+            "20.00-21.00",
+            "21.00-22.00",
+            "22.00-23.00",
+            "23.00-00.00"});
+            this.cmbsaat.Location = new System.Drawing.Point(94, 437);
+            this.cmbsaat.Name = "cmbsaat";
+            this.cmbsaat.Size = new System.Drawing.Size(121, 21);
+            this.cmbsaat.TabIndex = 68;
             // 
             // Rezervasyon_Görüntüleme
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(818, 467);
-            this.Controls.Add(this.comboBox2);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.label66);
-            this.Controls.Add(this.label65);
-            this.Controls.Add(this.button1);
-            this.Controls.Add(this.label64);
-            this.Controls.Add(this.label63);
-            this.Controls.Add(this.label62);
-            this.Controls.Add(this.label61);
-            this.Controls.Add(this.label60);
-            this.Controls.Add(this.label59);
-            this.Controls.Add(this.label58);
-            this.Controls.Add(this.label57);
-            this.Controls.Add(this.label56);
-            this.Controls.Add(this.label55);
-            this.Controls.Add(this.label54);
-            this.Controls.Add(this.label53);
-            this.Controls.Add(this.label52);
-            this.Controls.Add(this.label51);
-            this.Controls.Add(this.label50);
-            this.Controls.Add(this.label49);
-            this.Controls.Add(this.label48);
-            this.Controls.Add(this.label47);
-            this.Controls.Add(this.label46);
-            this.Controls.Add(this.label45);
-            this.Controls.Add(this.label44);
-            this.Controls.Add(this.label43);
-            this.Controls.Add(this.label42);
-            this.Controls.Add(this.label41);
-            this.Controls.Add(this.label40);
-            this.Controls.Add(this.label39);
-            this.Controls.Add(this.label38);
-            this.Controls.Add(this.label37);
-            this.Controls.Add(this.label36);
-            this.Controls.Add(this.label35);
-            this.Controls.Add(this.label34);
-            this.Controls.Add(this.label33);
-            this.Controls.Add(this.label32);
-            this.Controls.Add(this.label31);
-            this.Controls.Add(this.label30);
-            this.Controls.Add(this.label29);
-            this.Controls.Add(this.label28);
-            this.Controls.Add(this.label27);
-            this.Controls.Add(this.label26);
-            this.Controls.Add(this.label25);
-            this.Controls.Add(this.label24);
-            this.Controls.Add(this.label23);
-            this.Controls.Add(this.label22);
-            this.Controls.Add(this.label21);
-            this.Controls.Add(this.label20);
-            this.Controls.Add(this.label19);
-            this.Controls.Add(this.label18);
-            this.Controls.Add(this.label17);
-            this.Controls.Add(this.pazartesi19);
-            this.Controls.Add(this.pazartesi23);
-            this.Controls.Add(this.pazartesi22);
-            this.Controls.Add(this.pazartesi21);
-            this.Controls.Add(this.pazartesi20);
+            this.Controls.Add(this.cmbsaat);
+            this.Controls.Add(this.cmbgun);
+            this.Controls.Add(this.lblsaat);
+            this.Controls.Add(this.lblgun);
+            this.Controls.Add(this.btnrzrv);
+            this.Controls.Add(this.Pazar23);
+            this.Controls.Add(this.Sali23);
+            this.Controls.Add(this.Carsamba23);
+            this.Controls.Add(this.Persembe23);
+            this.Controls.Add(this.Cuma23);
+            this.Controls.Add(this.Cumartesi23);
+            this.Controls.Add(this.Pazar22);
+            this.Controls.Add(this.Sali22);
+            this.Controls.Add(this.Carsamba22);
+            this.Controls.Add(this.Persembe22);
+            this.Controls.Add(this.Cuma22);
+            this.Controls.Add(this.Cumartesi22);
+            this.Controls.Add(this.Sali21);
+            this.Controls.Add(this.Carsamba21);
+            this.Controls.Add(this.Persembe21);
+            this.Controls.Add(this.Cuma21);
+            this.Controls.Add(this.Cumartesi21);
+            this.Controls.Add(this.Pazar21);
+            this.Controls.Add(this.Pazar20);
+            this.Controls.Add(this.Carsamba20);
+            this.Controls.Add(this.Persembe20);
+            this.Controls.Add(this.Cuma20);
+            this.Controls.Add(this.Cumartesi20);
+            this.Controls.Add(this.Sali20);
+            this.Controls.Add(this.Sali19);
+            this.Controls.Add(this.Carsamba19);
+            this.Controls.Add(this.Cuma19);
+            this.Controls.Add(this.Cumartesi19);
+            this.Controls.Add(this.Pazar19);
+            this.Controls.Add(this.Persembe19);
+            this.Controls.Add(this.Pazar18);
+            this.Controls.Add(this.Sali18);
+            this.Controls.Add(this.Carsamba18);
+            this.Controls.Add(this.Persembe18);
+            this.Controls.Add(this.Cuma18);
+            this.Controls.Add(this.Cumartesi18);
+            this.Controls.Add(this.Sali17);
+            this.Controls.Add(this.Carsamba17);
+            this.Controls.Add(this.Persembe17);
+            this.Controls.Add(this.Cuma17);
+            this.Controls.Add(this.Cumartesi17);
+            this.Controls.Add(this.Pazar17);
+            this.Controls.Add(this.Pazar16);
+            this.Controls.Add(this.Carsamba16);
+            this.Controls.Add(this.Persembe16);
+            this.Controls.Add(this.Cuma16);
+            this.Controls.Add(this.Cumartesi16);
+            this.Controls.Add(this.Sali16);
+            this.Controls.Add(this.Pazartesi19);
+            this.Controls.Add(this.Pazartesi23);
+            this.Controls.Add(this.Pazartesi22);
+            this.Controls.Add(this.Pazartesi21);
+            this.Controls.Add(this.Pazartesi20);
             this.Controls.Add(this.label11);
-            this.Controls.Add(this.pazartesi18);
-            this.Controls.Add(this.pazartesi17);
-            this.Controls.Add(this.pazartesi16);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
-            this.Controls.Add(this.label5);
-            this.Controls.Add(this.label4);
-            this.Controls.Add(this.label3);
-            this.Controls.Add(this.label2);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.Pazartesi18);
+            this.Controls.Add(this.Pazartesi17);
+            this.Controls.Add(this.Pazartesi16);
+            this.Controls.Add(this.lblpaz);
+            this.Controls.Add(this.lblcmt);
+            this.Controls.Add(this.lblcuma);
+            this.Controls.Add(this.lblpers);
+            this.Controls.Add(this.Carsamba);
+            this.Controls.Add(this.lblsali);
+            this.Controls.Add(this.lblpzt);
+            cmbgun.Items.Add("Pazartesi");
+            cmbgun.Items.Add("Sali");
+            cmbgun.Items.Add("Carsamba");
+            cmbgun.Items.Add("Persembe");
+            cmbgun.Items.Add("Cuma");
+            cmbgun.Items.Add("Cumartesi");
+            cmbgun.Items.Add("Pazar");
             this.Name = "Rezervasyon_Görüntüleme";
             this.Text = "Rezervasyon_Görüntüleme";
+            //this.Load += new System.EventHandler(this.Rezervasyon_Görüntüleme_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
         }
 
+        private void Labels(ArrayList labels)
+        {
+            labels.Add(Carsamba);
+            labels.Add(Pazartesi16);
+            labels.Add(Pazartesi17);
+            labels.Add(Pazartesi18);
+            labels.Add(Pazartesi19);
+            labels.Add(Pazartesi20);
+            labels.Add(Pazartesi21);
+            labels.Add(Pazartesi22);
+            labels.Add(Pazartesi23);
+            labels.Add(Sali16);
+            labels.Add(Sali17);
+            labels.Add(Sali18);
+            labels.Add(Sali19);
+            labels.Add(Sali20);
+            labels.Add(Sali21);
+            labels.Add(Sali22);
+            labels.Add(Sali23);
+            labels.Add(Carsamba16);
+            labels.Add(Carsamba17);
+            labels.Add(Carsamba18);
+            labels.Add(Carsamba19);
+            labels.Add(Carsamba20);
+            labels.Add(Carsamba21);
+            labels.Add(Carsamba22);
+            labels.Add(Carsamba23);
+            labels.Add(Persembe16);
+            labels.Add(Persembe17);
+            labels.Add(Persembe18);
+            labels.Add(Persembe19);
+            labels.Add(Persembe20);
+            labels.Add(Persembe21);
+            labels.Add(Persembe22);
+            labels.Add(Persembe23);
+            labels.Add(Cuma16);
+            labels.Add(Cuma17);
+            labels.Add(Cuma18);
+            labels.Add(Cuma19);
+            labels.Add(Cuma20);
+            labels.Add(Cuma21);
+            labels.Add(Cuma22);
+            labels.Add(Cuma23);
+            labels.Add(Cumartesi16);
+            labels.Add(Cumartesi17);
+            labels.Add(Cumartesi18);
+            labels.Add(Cumartesi19);
+            labels.Add(Cumartesi20);
+            labels.Add(Cumartesi21);
+            labels.Add(Cumartesi22);
+            labels.Add(Cumartesi23);
+            labels.Add(Pazar16);
+            labels.Add(Pazar17);
+            labels.Add(Pazar18);
+            labels.Add(Pazar19);
+            labels.Add(Pazar20);
+            labels.Add(Pazar21);
+            labels.Add(Pazar22);
+            labels.Add(Pazar23);
+        }
+
+
         #endregion
 
-        private System.Windows.Forms.ComboBox comboBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Label label66;
-        private System.Windows.Forms.Label label65;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label64;
-        private System.Windows.Forms.Label label63;
-        private System.Windows.Forms.Label label62;
-        private System.Windows.Forms.Label label61;
-        private System.Windows.Forms.Label label60;
-        private System.Windows.Forms.Label label59;
-        private System.Windows.Forms.Label label58;
-        private System.Windows.Forms.Label label57;
-        private System.Windows.Forms.Label label56;
-        private System.Windows.Forms.Label label55;
-        private System.Windows.Forms.Label label54;
-        private System.Windows.Forms.Label label53;
-        private System.Windows.Forms.Label label52;
-        private System.Windows.Forms.Label label51;
-        private System.Windows.Forms.Label label50;
-        private System.Windows.Forms.Label label49;
-        private System.Windows.Forms.Label label48;
-        private System.Windows.Forms.Label label47;
-        private System.Windows.Forms.Label label46;
-        private System.Windows.Forms.Label label45;
-        private System.Windows.Forms.Label label44;
-        private System.Windows.Forms.Label label43;
-        private System.Windows.Forms.Label label42;
-        private System.Windows.Forms.Label label41;
-        private System.Windows.Forms.Label label40;
-        private System.Windows.Forms.Label label39;
-        private System.Windows.Forms.Label label38;
-        private System.Windows.Forms.Label label37;
-        private System.Windows.Forms.Label label36;
-        private System.Windows.Forms.Label label35;
-        private System.Windows.Forms.Label label34;
-        private System.Windows.Forms.Label label33;
-        private System.Windows.Forms.Label label32;
-        private System.Windows.Forms.Label label31;
-        private System.Windows.Forms.Label label30;
-        private System.Windows.Forms.Label label29;
-        private System.Windows.Forms.Label label28;
-        private System.Windows.Forms.Label label27;
-        private System.Windows.Forms.Label label26;
-        private System.Windows.Forms.Label label25;
-        private System.Windows.Forms.Label label24;
-        private System.Windows.Forms.Label label23;
-        private System.Windows.Forms.Label label22;
-        private System.Windows.Forms.Label label21;
-        private System.Windows.Forms.Label label20;
-        private System.Windows.Forms.Label label19;
-        private System.Windows.Forms.Label label18;
-        private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.Label pazartesi19;
-        private System.Windows.Forms.Label pazartesi23;
-        private System.Windows.Forms.Label pazartesi22;
-        private System.Windows.Forms.Label pazartesi21;
-        private System.Windows.Forms.Label pazartesi20;
+        private System.Windows.Forms.Label lblpzt;
+        private System.Windows.Forms.Label lblsali;
+        private System.Windows.Forms.Label Carsamba;
+        private System.Windows.Forms.Label lblpers;
+        private System.Windows.Forms.Label lblcuma;
+        private System.Windows.Forms.Label lblcmt;
+        private System.Windows.Forms.Label lblpaz;
+        private System.Windows.Forms.Label Pazartesi16;
+        private System.Windows.Forms.Label Pazartesi17;
+        private System.Windows.Forms.Label Pazartesi18;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label pazartesi18;
-        private System.Windows.Forms.Label pazartesi17;
-        private System.Windows.Forms.Label pazartesi16;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label Pazartesi20;
+        private System.Windows.Forms.Label Pazartesi21;
+        private System.Windows.Forms.Label Pazartesi22;
+        private System.Windows.Forms.Label Pazartesi23;
+        private System.Windows.Forms.Label Pazartesi19;
+        private System.Windows.Forms.Label Sali16;
+        private System.Windows.Forms.Label Cumartesi16;
+        private System.Windows.Forms.Label Cuma16;
+        private System.Windows.Forms.Label Persembe16;
+        private System.Windows.Forms.Label Carsamba16;
+        private System.Windows.Forms.Label Pazar16;
+        private System.Windows.Forms.Label Pazar17;
+        private System.Windows.Forms.Label Cumartesi17;
+        private System.Windows.Forms.Label Cuma17;
+        private System.Windows.Forms.Label Persembe17;
+        private System.Windows.Forms.Label Carsamba17;
+        private System.Windows.Forms.Label Sali17;
+        private System.Windows.Forms.Label Cumartesi18;
+        private System.Windows.Forms.Label Cuma18;
+        private System.Windows.Forms.Label Persembe18;
+        private System.Windows.Forms.Label Carsamba18;
+        private System.Windows.Forms.Label Sali18;
+        private System.Windows.Forms.Label Pazar18;
+        private System.Windows.Forms.Label Persembe19;
+        private System.Windows.Forms.Label Pazar19;
+        private System.Windows.Forms.Label Cumartesi19;
+        private System.Windows.Forms.Label Cuma19;
+        private System.Windows.Forms.Label Carsamba19;
+        private System.Windows.Forms.Label Sali19;
+        private System.Windows.Forms.Label Sali20;
+        private System.Windows.Forms.Label Cumartesi20;
+        private System.Windows.Forms.Label Cuma20;
+        private System.Windows.Forms.Label Persembe20;
+        private System.Windows.Forms.Label Carsamba20;
+        private System.Windows.Forms.Label Pazar20;
+        private System.Windows.Forms.Label Pazar21;
+        private System.Windows.Forms.Label Cumartesi21;
+        private System.Windows.Forms.Label Cuma21;
+        private System.Windows.Forms.Label Persembe21;
+        private System.Windows.Forms.Label Carsamba21;
+        private System.Windows.Forms.Label Sali21;
+        private System.Windows.Forms.Label Cumartesi22;
+        private System.Windows.Forms.Label Cuma22;
+        private System.Windows.Forms.Label Persembe22;
+        private System.Windows.Forms.Label Carsamba22;
+        private System.Windows.Forms.Label Sali22;
+        private System.Windows.Forms.Label Pazar22;
+        private System.Windows.Forms.Label Cumartesi23;
+        private System.Windows.Forms.Label Cuma23;
+        private System.Windows.Forms.Label Persembe23;
+        private System.Windows.Forms.Label Carsamba23;
+        private System.Windows.Forms.Label Sali23;
+        private System.Windows.Forms.Label Pazar23;
+        private System.Windows.Forms.Button btnrzrv;
+        private System.Windows.Forms.Label lblgun;
+        private System.Windows.Forms.Label lblsaat;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.ComboBox cmbgun;
+        private System.Windows.Forms.ComboBox cmbsaat;
     }
 }
