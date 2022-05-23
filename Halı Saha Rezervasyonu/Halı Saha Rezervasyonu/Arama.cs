@@ -18,7 +18,7 @@ namespace Halı_Saha_Rezervasyonu
             InitializeComponent();
         }
 
-        OleDbConnection baglanti = new OleDbConnection("");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\6ncaf\\OneDrive\\Masaüstü\\git\\HaliSahaRezervasyonSistemi\\Halısaha.mdb");
         // Yolu Girin Buraya
         
         private void goruntule()
@@ -31,7 +31,7 @@ namespace Halı_Saha_Rezervasyonu
             while(oku.Read())
             {
                 ListViewItem ekle = new ListViewItem();
-                ekle.Text = oku["Kimlik"].ToString();
+                ekle.Text = oku["id"].ToString();
                 ekle.SubItems.Add(oku["HalısahaAdı"].ToString());
                 ekle.SubItems.Add(oku["Ilce"].ToString());
                 ekle.SubItems.Add(oku["Fiyat"].ToString());
