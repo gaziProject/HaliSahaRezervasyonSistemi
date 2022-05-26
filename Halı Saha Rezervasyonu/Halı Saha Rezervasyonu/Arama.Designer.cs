@@ -31,12 +31,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.SahaNoTextBox = new System.Windows.Forms.TextBox();
             this.AraButton = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
-            this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SıralaBtn = new System.Windows.Forms.Button();
             this.DegerlendirmeBtn = new System.Windows.Forms.Button();
             this.label2 = new System.Windows.Forms.Label();
@@ -47,6 +41,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.FiyatsiralaBtn = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -68,6 +64,7 @@
             this.SahaNoTextBox.Name = "SahaNoTextBox";
             this.SahaNoTextBox.Size = new System.Drawing.Size(92, 21);
             this.SahaNoTextBox.TabIndex = 2;
+            this.SahaNoTextBox.TextChanged += new System.EventHandler(this.SahaNoTextBox_TextChanged);
             // 
             // AraButton
             // 
@@ -78,47 +75,6 @@
             this.AraButton.TabIndex = 3;
             this.AraButton.Text = "Ara";
             this.AraButton.UseVisualStyleBackColor = true;
-            // 
-            // listView1
-            // 
-            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5});
-            this.listView1.HideSelection = false;
-            this.listView1.Location = new System.Drawing.Point(46, 110);
-            this.listView1.Margin = new System.Windows.Forms.Padding(2);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(636, 366);
-            this.listView1.TabIndex = 0;
-            this.listView1.UseCompatibleStateImageBehavior = false;
-            this.listView1.View = System.Windows.Forms.View.Details;
-            // 
-            // columnHeader1
-            // 
-            this.columnHeader1.Text = "No";
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Halısaha Adı";
-            this.columnHeader2.Width = 232;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "İlçe";
-            this.columnHeader3.Width = 256;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Fiyat";
-            this.columnHeader4.Width = 95;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Değerlendirme";
-            this.columnHeader5.Width = 124;
             // 
             // SıralaBtn
             // 
@@ -225,12 +181,21 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(32, 83);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.Size = new System.Drawing.Size(635, 462);
+            this.dataGridView1.TabIndex = 14;
+            // 
             // Arama
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Yellow;
             this.ClientSize = new System.Drawing.Size(950, 557);
+            this.Controls.Add(this.dataGridView1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.FiyatsiralaBtn);
             this.Controls.Add(this.label4);
@@ -241,7 +206,6 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.DegerlendirmeBtn);
             this.Controls.Add(this.SıralaBtn);
-            this.Controls.Add(this.listView1);
             this.Controls.Add(this.AraButton);
             this.Controls.Add(this.SahaNoTextBox);
             this.Controls.Add(this.label1);
@@ -250,6 +214,8 @@
             this.Name = "Arama";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Arama";
+            this.Load += new System.EventHandler(this.Arama_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -260,12 +226,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox SahaNoTextBox;
         private System.Windows.Forms.Button AraButton;
-        private System.Windows.Forms.ListView listView1;
-        private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.Button SıralaBtn;
         private System.Windows.Forms.Button DegerlendirmeBtn;
         private System.Windows.Forms.Label label2;
@@ -276,5 +236,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button FiyatsiralaBtn;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView dataGridView1;
     }
 }
