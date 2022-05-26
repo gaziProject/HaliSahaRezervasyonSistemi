@@ -36,7 +36,7 @@
             this.panelLogo = new System.Windows.Forms.Panel();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.panelAltMenu = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.buttonYardım = new System.Windows.Forms.Button();
             this.panelForm = new System.Windows.Forms.Panel();
             this.panelYanMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
@@ -47,7 +47,7 @@
             // 
             this.panelYanMenu.AutoScroll = true;
             this.panelYanMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(17)))), ((int)(((byte)(5)))), ((int)(((byte)(20)))));
-            this.panelYanMenu.Controls.Add(this.button1);
+            this.panelYanMenu.Controls.Add(this.buttonYardım);
             this.panelYanMenu.Controls.Add(this.buttonCikis);
             this.panelYanMenu.Controls.Add(this.buttonKayıtOl);
             this.panelYanMenu.Controls.Add(this.buttonGiris);
@@ -129,18 +129,19 @@
             this.panelAltMenu.Size = new System.Drawing.Size(600, 40);
             this.panelAltMenu.TabIndex = 1;
             // 
-            // button1
+            // buttonYardım
             // 
-            this.button1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.button1.Location = new System.Drawing.Point(0, 214);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 40);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Yardım ?";
-            this.button1.UseVisualStyleBackColor = true;
+            this.buttonYardım.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonYardım.FlatAppearance.BorderSize = 0;
+            this.buttonYardım.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonYardım.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonYardım.Location = new System.Drawing.Point(0, 214);
+            this.buttonYardım.Name = "buttonYardım";
+            this.buttonYardım.Size = new System.Drawing.Size(200, 40);
+            this.buttonYardım.TabIndex = 4;
+            this.buttonYardım.Text = "Yardım ?";
+            this.buttonYardım.UseVisualStyleBackColor = true;
+            this.buttonYardım.Click += new System.EventHandler(this.buttonYardım_Click);
             // 
             // panelForm
             // 
@@ -182,7 +183,7 @@
         private System.Windows.Forms.Panel panelLogo;
         private System.Windows.Forms.PictureBox pictureBoxLogo;
         private System.Windows.Forms.Panel panelAltMenu;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button buttonYardım;
         private System.Windows.Forms.Panel panelForm;
     }
 }
