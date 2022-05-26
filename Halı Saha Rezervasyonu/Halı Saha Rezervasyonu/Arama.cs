@@ -18,7 +18,7 @@ namespace Halı_Saha_Rezervasyonu
             InitializeComponent();
         }
 
-        OleDbConnection baglanti = new OleDbConnection("");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\yibif\\Desktop\\github gazi proje\\HaliSahaRezervasyonSistemi\\Halısaha.mdb");
         // Yolu Girin Buraya
         
         private void goruntule()
@@ -30,13 +30,7 @@ namespace Halı_Saha_Rezervasyonu
             OleDbDataReader oku = komut.ExecuteReader();
             while(oku.Read())
             {
-                ListViewItem ekle = new ListViewItem();
-                ekle.Text = oku["Kimlik"].ToString();
-                ekle.SubItems.Add(oku["HalısahaAdı"].ToString());
-                ekle.SubItems.Add(oku["Ilce"].ToString());
-                ekle.SubItems.Add(oku["Fiyat"].ToString());
-                ekle.SubItems.Add(oku["Degerlendirme"].ToString());
-                listView1.Items.Add(ekle);
+                
             }
             baglanti.Close();
         }
@@ -53,6 +47,27 @@ namespace Halı_Saha_Rezervasyonu
             Rezervasyon_Görüntüleme rezervasyon_Görüntüleme = new Rezervasyon_Görüntüleme();
             rezervasyon_Görüntüleme.Show();
             Hide();
+        }
+
+        private void SahaNoTextBox_TextChanged(object sender, EventArgs e)
+        {
+            Filtrele();
+        }
+
+        private void Arama_Load(object sender, EventArgs e)
+        {
+            OleDbDataAdapter adpt = new OleDbDataAdapter("Select id,HalısahaAdı,Ilce,Fiyat,Degerlendirme From Ana", baglanti);
+            adpt.Fill(tbl);
+            dataGridView1.DataSource = tbl;
+            goruntule();
+        }
+        DataTable tbl = new DataTable();
+        DataView Filtrele()
+        {
+            DataView dv = new DataView();
+            dv = tbl.DefaultView;
+            dv.RowFilter = "Convert(id,System.String) Like '" + SahaNoTextBox.Text + "%'";
+            return dv;
         }
     }
 }
