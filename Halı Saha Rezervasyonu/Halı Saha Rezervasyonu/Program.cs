@@ -16,7 +16,7 @@ namespace Halı_Saha_Rezervasyonu
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new AnaEkran());
+            Application.Run(new Form1());
         }
     }
 }

@@ -72,6 +72,12 @@
     <Compile Include="Arama.Designer.cs">
       <DependentUpon>Arama.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Profil.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -112,6 +118,12 @@
     </Compile>
     <EmbeddedResource Include="Arama.resx">
       <DependentUpon>Arama.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kayıt Olma.resx">
+      <DependentUpon>Kayıt Olma.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Profil.resx">
       <DependentUpon>Profil.cs</DependentUpon>
