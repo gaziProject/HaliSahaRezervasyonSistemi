@@ -53,5 +53,10 @@ namespace Halı_Saha_Rezervasyonu
         {
             MessageBox.Show("'onur_arikan2002@hotmail.com' mailine ulaşabilirsiniz.");
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

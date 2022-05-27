@@ -44,3 +44,5 @@ C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyo
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı Saha Rezervasyonu.pdb
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Form1.resources
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.kayıtol.resources
+C:\Users\yibif\Desktop\github gazi proje\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Form1.resources
+C:\Users\yibif\Desktop\github gazi proje\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.kayıtol.resources

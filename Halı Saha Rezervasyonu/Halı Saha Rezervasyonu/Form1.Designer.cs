@@ -30,13 +30,13 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.panelYanMenu = new System.Windows.Forms.Panel();
+            this.buttonYardım = new System.Windows.Forms.Button();
             this.buttonCikis = new System.Windows.Forms.Button();
             this.buttonKayıtOl = new System.Windows.Forms.Button();
             this.buttonGiris = new System.Windows.Forms.Button();
             this.panelLogo = new System.Windows.Forms.Panel();
             this.pictureBoxLogo = new System.Windows.Forms.PictureBox();
             this.panelAltMenu = new System.Windows.Forms.Panel();
-            this.buttonYardım = new System.Windows.Forms.Button();
             this.panelForm = new System.Windows.Forms.Panel();
             this.panelYanMenu.SuspendLayout();
             this.panelLogo.SuspendLayout();
@@ -57,6 +57,20 @@
             this.panelYanMenu.Name = "panelYanMenu";
             this.panelYanMenu.Size = new System.Drawing.Size(200, 600);
             this.panelYanMenu.TabIndex = 0;
+            // 
+            // buttonYardım
+            // 
+            this.buttonYardım.Dock = System.Windows.Forms.DockStyle.Top;
+            this.buttonYardım.FlatAppearance.BorderSize = 0;
+            this.buttonYardım.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.buttonYardım.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonYardım.Location = new System.Drawing.Point(0, 214);
+            this.buttonYardım.Name = "buttonYardım";
+            this.buttonYardım.Size = new System.Drawing.Size(200, 40);
+            this.buttonYardım.TabIndex = 4;
+            this.buttonYardım.Text = "Yardım ?";
+            this.buttonYardım.UseVisualStyleBackColor = true;
+            this.buttonYardım.Click += new System.EventHandler(this.buttonYardım_Click);
             // 
             // buttonCikis
             // 
@@ -129,20 +143,6 @@
             this.panelAltMenu.Size = new System.Drawing.Size(600, 40);
             this.panelAltMenu.TabIndex = 1;
             // 
-            // buttonYardım
-            // 
-            this.buttonYardım.Dock = System.Windows.Forms.DockStyle.Top;
-            this.buttonYardım.FlatAppearance.BorderSize = 0;
-            this.buttonYardım.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonYardım.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.buttonYardım.Location = new System.Drawing.Point(0, 214);
-            this.buttonYardım.Name = "buttonYardım";
-            this.buttonYardım.Size = new System.Drawing.Size(200, 40);
-            this.buttonYardım.TabIndex = 4;
-            this.buttonYardım.Text = "Yardım ?";
-            this.buttonYardım.UseVisualStyleBackColor = true;
-            this.buttonYardım.Click += new System.EventHandler(this.buttonYardım_Click);
-            // 
             // panelForm
             // 
             this.panelForm.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))));
@@ -166,7 +166,7 @@
             this.MinimumSize = new System.Drawing.Size(800, 600);
             this.Name = "Form1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.WindowState = System.Windows.Forms.FormWindowState.Minimized;
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.panelYanMenu.ResumeLayout(false);
             this.panelLogo.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBoxLogo)).EndInit();

@@ -119,6 +119,7 @@
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(92, 21);
             this.comboBox1.TabIndex = 6;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -140,6 +141,8 @@
             this.minTextBox.Size = new System.Drawing.Size(31, 20);
             this.minTextBox.TabIndex = 8;
             this.minTextBox.Text = "min";
+            this.minTextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.minTextBox_MouseClick);
+            this.minTextBox.TextChanged += new System.EventHandler(this.minTextBox_TextChanged);
             // 
             // maxTextBox
             // 
@@ -149,6 +152,8 @@
             this.maxTextBox.Size = new System.Drawing.Size(31, 20);
             this.maxTextBox.TabIndex = 9;
             this.maxTextBox.Text = "max";
+            this.maxTextBox.MouseClick += new System.Windows.Forms.MouseEventHandler(this.maxTextBox_MouseClick);
+            this.maxTextBox.TextChanged += new System.EventHandler(this.maxTextBox_TextChanged);
             // 
             // label4
             // 
@@ -170,6 +175,7 @@
             this.FiyatsiralaBtn.TabIndex = 12;
             this.FiyatsiralaBtn.Text = "Sırala";
             this.FiyatsiralaBtn.UseVisualStyleBackColor = true;
+            this.FiyatsiralaBtn.Click += new System.EventHandler(this.FiyatsiralaBtn_Click_1);
             // 
             // button1
             // 
