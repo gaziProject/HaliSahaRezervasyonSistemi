@@ -148,5 +148,12 @@ namespace Halı_Saha_Rezervasyonu
             
 
         }
+
+        private void dataGridView1_DoubleClick(object sender, EventArgs e)
+        {
+            Adres ac = new Adres();
+            ac.Show();
+            Hide();
+        }
     }
 }
