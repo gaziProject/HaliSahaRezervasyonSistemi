@@ -22,7 +22,7 @@ namespace Halı_Saha_Rezervasyonu
 
         private void rezervasyon_Click(object sender, EventArgs e)
         {
-            Rezervasyon_Görüntüleme ac = new Rezervasyon_Görüntüleme();
+            Rezervasyon_Görüntüleme ac = new Rezervasyon_Görüntüleme(idlabel.Text.ToString());
             ac.Show();
             Hide();
         }

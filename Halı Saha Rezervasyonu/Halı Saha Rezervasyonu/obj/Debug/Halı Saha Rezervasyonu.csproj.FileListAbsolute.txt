@@ -63,3 +63,6 @@ C:\Users\6ncaf\OneDrive\Masaüstü\git\Halı Saha Rezervasyonu\Halı Saha Rezerv
 C:\Users\6ncaf\OneDrive\Masaüstü\git\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı Saha Rezervasyonu.csproj.CoreCompileInputs.cache
 C:\Users\6ncaf\OneDrive\Masaüstü\git\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı Saha Rezervasyonu.exe
 C:\Users\6ncaf\OneDrive\Masaüstü\git\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı Saha Rezervasyonu.pdb
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Adres.resources
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Form1.resources
+C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.kayıtol.resources

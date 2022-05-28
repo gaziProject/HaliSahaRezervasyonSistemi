@@ -912,7 +912,7 @@ namespace Halı_Saha_Rezervasyonu
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Rezervasyon_Görüntüleme";
             this.Text = "Rezervasyon_Görüntüleme";
-            this.Load += new System.EventHandler(this.Rezervasyon_Görüntüleme_Load_1);
+            //this.Load += new System.EventHandler(this.Rezervasyon_Görüntüleme_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
