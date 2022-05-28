@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
+
 namespace Halı_Saha_Rezervasyonu
 {
     public partial class Adres : Form
@@ -16,23 +17,25 @@ namespace Halı_Saha_Rezervasyonu
         {
             InitializeComponent();
         }
-        public string isim, telefon, ilce, fiyat, id;
-        public Adres(string isim, string telefon,string ilce, string fiyat, string id)
+        
+        public string isim, degerlendirme, ilce, fiyat, id,adres,telefon;
+
+        private void rezervasyon_Click(object sender, EventArgs e)
         {
-            this.isim = isim;
-            this.telefon = telefon;
-            this.ilce = ilce;
-            this.fiyat = fiyat;
-            this.id = id; 
+            Rezervasyon_Görüntüleme ac = new Rezervasyon_Görüntüleme();
+            ac.Show();
+            Hide();
         }
 
         private void Adres_Load(object sender, EventArgs e)
         {
             idlabel.Text = id;
             halısahaadı_label.Text = isim;
-            telefonlabel.Text = telefon;
+            degerlendirmelabel.Text = degerlendirme;
             ilcelabel.Text = ilce; 
             fiyatlabel.Text = fiyat;
+            adreslabel.Text = adres;
+            telefonlabel.Text = telefon;
 
         }
     }

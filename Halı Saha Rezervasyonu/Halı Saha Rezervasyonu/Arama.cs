@@ -21,19 +21,7 @@ namespace Halı_Saha_Rezervasyonu
         OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\6ncaf\\OneDrive\\Masaüstü\\git\\Halısaha.mdb");
         // Yolu Girin Buraya
 
-        //private void goruntule()
-        //{
-        //    baglanti.Open();
-        //    OleDbCommand komut = new OleDbCommand();
-        //    komut.Connection = baglanti;
-        //    komut.CommandText = ("Select * From Ana");
-        //    OleDbDataReader oku = komut.ExecuteReader();
-        //    while (oku.Read())
-        //    {
-
-        //    }
-        //    baglanti.Close();
-        //}
+        
 
 
         private void SıralaBtn_Click(object sender, EventArgs e)
@@ -74,7 +62,7 @@ namespace Halı_Saha_Rezervasyonu
             //{
             //    comboBox1.Items.Add(oku2["Ilce"]);
             //}
-            //baglanti.Close();
+            baglanti.Close();
         }
         DataTable tbl = new DataTable();
         DataTable tbl2 = new DataTable();
@@ -148,17 +136,35 @@ namespace Halı_Saha_Rezervasyonu
             
 
         }
-
+       
         private void dataGridView1_DoubleClick(object sender, EventArgs e)
         {
-            Adres ac = new Adres();
-            Adres deger = new Adres(dataGridView1.CurrentRow.Cells[0].Value.ToString(), dataGridView1.CurrentRow.Cells[1].Value.ToString(), dataGridView1.CurrentRow.Cells[2].Value.ToString(), dataGridView1.CurrentRow.Cells[3].Value.ToString(), dataGridView1.CurrentRow.Cells[4].Value.ToString());
-            //deger.id = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            //deger.isim = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-            //deger.telefon = dataGridView1.CurrentRow.Cells[2].Value.ToString();
-            //deger.ilce = dataGridView1.CurrentRow.Cells[3].Value.ToString();
-            //deger.fiyat = dataGridView1.CurrentRow.Cells[4].Value.ToString();
-            ac.Show();
+           
+            Adres deger = new Adres();
+            deger.id = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            deger.isim = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            deger.ilce = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            deger.fiyat= dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            deger.degerlendirme = dataGridView1.CurrentRow.Cells[4].Value.ToString();
+            baglanti.Open();
+            OleDbCommand komut = new OleDbCommand();
+            komut.Connection = baglanti;
+            komut.CommandText = ("Select * From Ana");
+            OleDbDataReader oku = komut.ExecuteReader();
+            while (oku.Read())
+            {
+                if (dataGridView1.CurrentRow.Cells[0].Value.ToString() == oku["id"].ToString())
+                {
+                    deger.adres = oku["Adres"].ToString();
+                }
+                if (dataGridView1.CurrentRow.Cells[0].Value.ToString() == oku["id"].ToString())
+                {
+                    deger.telefon = oku["Telefon"].ToString();
+                }
+            }
+            baglanti.Close();
+            
+            deger.Show();
             Hide();
         }
     }
