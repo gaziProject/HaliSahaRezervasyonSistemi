@@ -170,5 +170,10 @@ namespace Halı_Saha_Rezervasyonu
 
 
         }
+
+        private void Rezervasyon_Görüntüleme_Load_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

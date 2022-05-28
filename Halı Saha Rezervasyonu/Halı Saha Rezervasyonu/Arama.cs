@@ -18,22 +18,22 @@ namespace Halı_Saha_Rezervasyonu
             InitializeComponent();
         }
 
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\yibif\\Desktop\\github gazi proje\\HaliSahaRezervasyonSistemi\\Halısaha.mdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\6ncaf\\OneDrive\\Masaüstü\\git\\Halısaha.mdb");
         // Yolu Girin Buraya
 
-        private void goruntule()
-        {
-            baglanti.Open();
-            OleDbCommand komut = new OleDbCommand();
-            komut.Connection = baglanti;
-            komut.CommandText = ("Select * From Ana");
-            OleDbDataReader oku = komut.ExecuteReader();
-            while (oku.Read())
-            {
+        //private void goruntule()
+        //{
+        //    baglanti.Open();
+        //    OleDbCommand komut = new OleDbCommand();
+        //    komut.Connection = baglanti;
+        //    komut.CommandText = ("Select * From Ana");
+        //    OleDbDataReader oku = komut.ExecuteReader();
+        //    while (oku.Read())
+        //    {
 
-            }
-            baglanti.Close();
-        }
+        //    }
+        //    baglanti.Close();
+        //}
 
 
         private void SıralaBtn_Click(object sender, EventArgs e)
@@ -66,15 +66,15 @@ namespace Halı_Saha_Rezervasyonu
             adpt.Fill(tbl);
             dataGridView1.DataSource = tbl;
            
-            OleDbCommand komut1 = new OleDbCommand();
-            komut1.Connection = baglanti;
-            komut1.CommandText = ("Select Ilce From Ana");
-            OleDbDataReader oku2 = komut1.ExecuteReader();
-            while (oku2.Read())
-            {
-                comboBox1.Items.Add(oku2["Ilce"]);
-            }
-            baglanti.Close();
+            //OleDbCommand komut1 = new OleDbCommand();
+            //komut1.Connection = baglanti;
+            //komut1.CommandText = ("Select Ilce From Ana");
+            //OleDbDataReader oku2 = komut1.ExecuteReader();
+            //while (oku2.Read())
+            //{
+            //    comboBox1.Items.Add(oku2["Ilce"]);
+            //}
+            //baglanti.Close();
         }
         DataTable tbl = new DataTable();
         DataTable tbl2 = new DataTable();
@@ -114,7 +114,7 @@ namespace Halı_Saha_Rezervasyonu
             OleDbDataAdapter adptFiyat = new OleDbDataAdapter(komut2);
             adptFiyat.Fill(tbl2);
             dataGridView1.DataSource = tbl2;
-            goruntule();
+            
         }
 
         private void minTextBox_TextChanged(object sender, EventArgs e)

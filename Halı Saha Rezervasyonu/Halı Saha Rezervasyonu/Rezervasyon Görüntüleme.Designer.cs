@@ -115,586 +115,648 @@ namespace Halı_Saha_Rezervasyonu
             // lblpzt
             // 
             this.lblpzt.AutoSize = true;
-            this.lblpzt.Location = new System.Drawing.Point(12, 63);
+            this.lblpzt.Location = new System.Drawing.Point(16, 78);
+            this.lblpzt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblpzt.Name = "lblpzt";
-            this.lblpzt.Size = new System.Drawing.Size(50, 13);
+            this.lblpzt.Size = new System.Drawing.Size(63, 16);
             this.lblpzt.TabIndex = 0;
             this.lblpzt.Text = "Pazartesi";
             // 
             // lblsali
             // 
             this.lblsali.AutoSize = true;
-            this.lblsali.Location = new System.Drawing.Point(12, 110);
+            this.lblsali.Location = new System.Drawing.Point(16, 135);
+            this.lblsali.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblsali.Name = "lblsali";
-            this.lblsali.Size = new System.Drawing.Size(24, 13);
+            this.lblsali.Size = new System.Drawing.Size(30, 16);
             this.lblsali.TabIndex = 1;
             this.lblsali.Text = "Salı";
             // 
             // Carsamba
             // 
             this.Carsamba.AutoSize = true;
-            this.Carsamba.Location = new System.Drawing.Point(12, 158);
+            this.Carsamba.Location = new System.Drawing.Point(16, 194);
+            this.Carsamba.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Carsamba.Name = "Carsamba";
-            this.Carsamba.Size = new System.Drawing.Size(54, 13);
+            this.Carsamba.Size = new System.Drawing.Size(70, 16);
             this.Carsamba.TabIndex = 2;
             this.Carsamba.Text = "Çarşamba";
             // 
             // lblpers
             // 
             this.lblpers.AutoSize = true;
-            this.lblpers.Location = new System.Drawing.Point(12, 206);
+            this.lblpers.Location = new System.Drawing.Point(16, 254);
+            this.lblpers.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblpers.Name = "lblpers";
-            this.lblpers.Size = new System.Drawing.Size(54, 13);
+            this.lblpers.Size = new System.Drawing.Size(70, 16);
             this.lblpers.TabIndex = 3;
             this.lblpers.Text = "Perşembe";
             // 
             // lblcuma
             // 
             this.lblcuma.AutoSize = true;
-            this.lblcuma.Location = new System.Drawing.Point(12, 257);
+            this.lblcuma.Location = new System.Drawing.Point(16, 316);
+            this.lblcuma.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcuma.Name = "lblcuma";
-            this.lblcuma.Size = new System.Drawing.Size(34, 13);
+            this.lblcuma.Size = new System.Drawing.Size(42, 16);
             this.lblcuma.TabIndex = 4;
             this.lblcuma.Text = "Cuma";
             // 
             // lblcmt
             // 
             this.lblcmt.AutoSize = true;
-            this.lblcmt.Location = new System.Drawing.Point(12, 312);
+            this.lblcmt.Location = new System.Drawing.Point(16, 384);
+            this.lblcmt.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblcmt.Name = "lblcmt";
-            this.lblcmt.Size = new System.Drawing.Size(53, 13);
+            this.lblcmt.Size = new System.Drawing.Size(67, 16);
             this.lblcmt.TabIndex = 5;
             this.lblcmt.Text = "Cumartesi";
-            //this.lblcmt.Click += new System.EventHandler(this.label6_Click);
             // 
             // lblpaz
             // 
             this.lblpaz.AutoSize = true;
-            this.lblpaz.Location = new System.Drawing.Point(12, 375);
+            this.lblpaz.Location = new System.Drawing.Point(16, 462);
+            this.lblpaz.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblpaz.Name = "lblpaz";
-            this.lblpaz.Size = new System.Drawing.Size(34, 13);
+            this.lblpaz.Size = new System.Drawing.Size(42, 16);
             this.lblpaz.TabIndex = 6;
             this.lblpaz.Text = "Pazar";
             // 
             // Pazartesi16
             // 
             this.Pazartesi16.AutoSize = true;
-            this.Pazartesi16.Location = new System.Drawing.Point(91, 63);
+            this.Pazartesi16.Location = new System.Drawing.Point(121, 78);
+            this.Pazartesi16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazartesi16.Name = "Pazartesi16";
-            this.Pazartesi16.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi16.Size = new System.Drawing.Size(73, 16);
             this.Pazartesi16.TabIndex = 7;
             this.Pazartesi16.Text = "16.00-17.00";
             // 
             // Pazartesi17
             // 
             this.Pazartesi17.AutoSize = true;
-            this.Pazartesi17.Location = new System.Drawing.Point(196, 63);
+            this.Pazartesi17.Location = new System.Drawing.Point(261, 78);
+            this.Pazartesi17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazartesi17.Name = "Pazartesi17";
-            this.Pazartesi17.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi17.Size = new System.Drawing.Size(73, 16);
             this.Pazartesi17.TabIndex = 8;
             this.Pazartesi17.Text = "17.00-18.00";
             // 
             // Pazartesi18
             // 
             this.Pazartesi18.AutoSize = true;
-            this.Pazartesi18.Location = new System.Drawing.Point(293, 63);
+            this.Pazartesi18.Location = new System.Drawing.Point(391, 78);
+            this.Pazartesi18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazartesi18.Name = "Pazartesi18";
-            this.Pazartesi18.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi18.Size = new System.Drawing.Size(73, 16);
             this.Pazartesi18.TabIndex = 9;
             this.Pazartesi18.Text = "18.00-19.00";
-            //this.Pazartesi18.Click += new System.EventHandler(this.label10_Click);
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(376, 39);
+            this.label11.Location = new System.Drawing.Point(501, 48);
+            this.label11.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(0, 13);
+            this.label11.Size = new System.Drawing.Size(0, 16);
             this.label11.TabIndex = 10;
             // 
             // Pazartesi20
             // 
             this.Pazartesi20.AutoSize = true;
-            this.Pazartesi20.Location = new System.Drawing.Point(472, 63);
+            this.Pazartesi20.Location = new System.Drawing.Point(629, 78);
+            this.Pazartesi20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazartesi20.Name = "Pazartesi20";
-            this.Pazartesi20.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi20.Size = new System.Drawing.Size(73, 16);
             this.Pazartesi20.TabIndex = 11;
             this.Pazartesi20.Text = "20.00-21.00";
             // 
             // Pazartesi21
             // 
             this.Pazartesi21.AutoSize = true;
-            this.Pazartesi21.Location = new System.Drawing.Point(563, 63);
+            this.Pazartesi21.Location = new System.Drawing.Point(751, 78);
+            this.Pazartesi21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazartesi21.Name = "Pazartesi21";
-            this.Pazartesi21.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi21.Size = new System.Drawing.Size(73, 16);
             this.Pazartesi21.TabIndex = 12;
             this.Pazartesi21.Text = "21.00-22.00";
             // 
             // Pazartesi22
             // 
             this.Pazartesi22.AutoSize = true;
-            this.Pazartesi22.Location = new System.Drawing.Point(652, 63);
+            this.Pazartesi22.Location = new System.Drawing.Point(869, 78);
+            this.Pazartesi22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazartesi22.Name = "Pazartesi22";
-            this.Pazartesi22.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi22.Size = new System.Drawing.Size(73, 16);
             this.Pazartesi22.TabIndex = 13;
             this.Pazartesi22.Text = "22.00-23.00";
             // 
             // Pazartesi23
             // 
             this.Pazartesi23.AutoSize = true;
-            this.Pazartesi23.Location = new System.Drawing.Point(734, 63);
+            this.Pazartesi23.Location = new System.Drawing.Point(979, 78);
+            this.Pazartesi23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazartesi23.Name = "Pazartesi23";
-            this.Pazartesi23.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi23.Size = new System.Drawing.Size(73, 16);
             this.Pazartesi23.TabIndex = 14;
             this.Pazartesi23.Text = "23.00-00.00";
             // 
             // Pazartesi19
             // 
             this.Pazartesi19.AutoSize = true;
-            this.Pazartesi19.Location = new System.Drawing.Point(384, 63);
+            this.Pazartesi19.Location = new System.Drawing.Point(512, 78);
+            this.Pazartesi19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazartesi19.Name = "Pazartesi19";
-            this.Pazartesi19.Size = new System.Drawing.Size(64, 13);
+            this.Pazartesi19.Size = new System.Drawing.Size(73, 16);
             this.Pazartesi19.TabIndex = 15;
             this.Pazartesi19.Text = "19.00-20.00";
-            //this.Pazartesi19.Click += new System.EventHandler(this.label16_Click);
             // 
             // Sali16
             // 
             this.Sali16.AutoSize = true;
-            this.Sali16.Location = new System.Drawing.Point(91, 110);
+            this.Sali16.Location = new System.Drawing.Point(121, 135);
+            this.Sali16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Sali16.Name = "Sali16";
-            this.Sali16.Size = new System.Drawing.Size(64, 13);
+            this.Sali16.Size = new System.Drawing.Size(73, 16);
             this.Sali16.TabIndex = 16;
             this.Sali16.Text = "16.00-17.00";
             // 
             // Cumartesi16
             // 
             this.Cumartesi16.AutoSize = true;
-            this.Cumartesi16.Location = new System.Drawing.Point(91, 312);
+            this.Cumartesi16.Location = new System.Drawing.Point(121, 384);
+            this.Cumartesi16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cumartesi16.Name = "Cumartesi16";
-            this.Cumartesi16.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi16.Size = new System.Drawing.Size(73, 16);
             this.Cumartesi16.TabIndex = 17;
             this.Cumartesi16.Text = "16.00-17.00";
             // 
             // Cuma16
             // 
             this.Cuma16.AutoSize = true;
-            this.Cuma16.Location = new System.Drawing.Point(91, 257);
+            this.Cuma16.Location = new System.Drawing.Point(121, 316);
+            this.Cuma16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cuma16.Name = "Cuma16";
-            this.Cuma16.Size = new System.Drawing.Size(64, 13);
+            this.Cuma16.Size = new System.Drawing.Size(73, 16);
             this.Cuma16.TabIndex = 18;
             this.Cuma16.Text = "16.00-17.00";
             // 
             // Persembe16
             // 
             this.Persembe16.AutoSize = true;
-            this.Persembe16.Location = new System.Drawing.Point(91, 206);
+            this.Persembe16.Location = new System.Drawing.Point(121, 254);
+            this.Persembe16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Persembe16.Name = "Persembe16";
-            this.Persembe16.Size = new System.Drawing.Size(64, 13);
+            this.Persembe16.Size = new System.Drawing.Size(73, 16);
             this.Persembe16.TabIndex = 19;
             this.Persembe16.Text = "16.00-17.00";
             // 
             // Carsamba16
             // 
             this.Carsamba16.AutoSize = true;
-            this.Carsamba16.Location = new System.Drawing.Point(91, 158);
+            this.Carsamba16.Location = new System.Drawing.Point(121, 194);
+            this.Carsamba16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Carsamba16.Name = "Carsamba16";
-            this.Carsamba16.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba16.Size = new System.Drawing.Size(73, 16);
             this.Carsamba16.TabIndex = 20;
             this.Carsamba16.Text = "16.00-17.00";
             // 
             // Pazar16
             // 
             this.Pazar16.AutoSize = true;
-            this.Pazar16.Location = new System.Drawing.Point(91, 375);
+            this.Pazar16.Location = new System.Drawing.Point(121, 462);
+            this.Pazar16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazar16.Name = "Pazar16";
-            this.Pazar16.Size = new System.Drawing.Size(64, 13);
+            this.Pazar16.Size = new System.Drawing.Size(73, 16);
             this.Pazar16.TabIndex = 21;
             this.Pazar16.Text = "16.00-17.00";
             // 
             // Pazar17
             // 
             this.Pazar17.AutoSize = true;
-            this.Pazar17.Location = new System.Drawing.Point(196, 375);
+            this.Pazar17.Location = new System.Drawing.Point(261, 462);
+            this.Pazar17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazar17.Name = "Pazar17";
-            this.Pazar17.Size = new System.Drawing.Size(64, 13);
+            this.Pazar17.Size = new System.Drawing.Size(73, 16);
             this.Pazar17.TabIndex = 22;
             this.Pazar17.Text = "17.00-18.00";
             // 
             // Cumartesi17
             // 
             this.Cumartesi17.AutoSize = true;
-            this.Cumartesi17.Location = new System.Drawing.Point(196, 312);
+            this.Cumartesi17.Location = new System.Drawing.Point(261, 384);
+            this.Cumartesi17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cumartesi17.Name = "Cumartesi17";
-            this.Cumartesi17.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi17.Size = new System.Drawing.Size(73, 16);
             this.Cumartesi17.TabIndex = 23;
             this.Cumartesi17.Text = "17.00-18.00";
             // 
             // Cuma17
             // 
             this.Cuma17.AutoSize = true;
-            this.Cuma17.Location = new System.Drawing.Point(196, 257);
+            this.Cuma17.Location = new System.Drawing.Point(261, 316);
+            this.Cuma17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cuma17.Name = "Cuma17";
-            this.Cuma17.Size = new System.Drawing.Size(64, 13);
+            this.Cuma17.Size = new System.Drawing.Size(73, 16);
             this.Cuma17.TabIndex = 24;
             this.Cuma17.Text = "17.00-18.00";
             // 
             // Persembe17
             // 
             this.Persembe17.AutoSize = true;
-            this.Persembe17.Location = new System.Drawing.Point(196, 206);
+            this.Persembe17.Location = new System.Drawing.Point(261, 254);
+            this.Persembe17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Persembe17.Name = "Persembe17";
-            this.Persembe17.Size = new System.Drawing.Size(64, 13);
+            this.Persembe17.Size = new System.Drawing.Size(73, 16);
             this.Persembe17.TabIndex = 25;
             this.Persembe17.Text = "17.00-18.00";
             // 
             // Carsamba17
             // 
             this.Carsamba17.AutoSize = true;
-            this.Carsamba17.Location = new System.Drawing.Point(196, 158);
+            this.Carsamba17.Location = new System.Drawing.Point(261, 194);
+            this.Carsamba17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Carsamba17.Name = "Carsamba17";
-            this.Carsamba17.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba17.Size = new System.Drawing.Size(73, 16);
             this.Carsamba17.TabIndex = 26;
             this.Carsamba17.Text = "17.00-18.00";
             // 
             // Sali17
             // 
             this.Sali17.AutoSize = true;
-            this.Sali17.Location = new System.Drawing.Point(196, 110);
+            this.Sali17.Location = new System.Drawing.Point(261, 135);
+            this.Sali17.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Sali17.Name = "Sali17";
-            this.Sali17.Size = new System.Drawing.Size(64, 13);
+            this.Sali17.Size = new System.Drawing.Size(73, 16);
             this.Sali17.TabIndex = 27;
             this.Sali17.Text = "17.00-18.00";
             // 
             // Cumartesi18
             // 
             this.Cumartesi18.AutoSize = true;
-            this.Cumartesi18.Location = new System.Drawing.Point(293, 312);
+            this.Cumartesi18.Location = new System.Drawing.Point(391, 384);
+            this.Cumartesi18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cumartesi18.Name = "Cumartesi18";
-            this.Cumartesi18.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi18.Size = new System.Drawing.Size(73, 16);
             this.Cumartesi18.TabIndex = 28;
             this.Cumartesi18.Text = "18.00-19.00";
             // 
             // Cuma18
             // 
             this.Cuma18.AutoSize = true;
-            this.Cuma18.Location = new System.Drawing.Point(293, 257);
+            this.Cuma18.Location = new System.Drawing.Point(391, 316);
+            this.Cuma18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cuma18.Name = "Cuma18";
-            this.Cuma18.Size = new System.Drawing.Size(64, 13);
+            this.Cuma18.Size = new System.Drawing.Size(73, 16);
             this.Cuma18.TabIndex = 29;
             this.Cuma18.Text = "18.00-19.00";
             // 
             // Persembe18
             // 
             this.Persembe18.AutoSize = true;
-            this.Persembe18.Location = new System.Drawing.Point(293, 206);
+            this.Persembe18.Location = new System.Drawing.Point(391, 254);
+            this.Persembe18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Persembe18.Name = "Persembe18";
-            this.Persembe18.Size = new System.Drawing.Size(64, 13);
+            this.Persembe18.Size = new System.Drawing.Size(73, 16);
             this.Persembe18.TabIndex = 30;
             this.Persembe18.Text = "18.00-19.00";
             // 
             // Carsamba18
             // 
             this.Carsamba18.AutoSize = true;
-            this.Carsamba18.Location = new System.Drawing.Point(293, 158);
+            this.Carsamba18.Location = new System.Drawing.Point(391, 194);
+            this.Carsamba18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Carsamba18.Name = "Carsamba18";
-            this.Carsamba18.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba18.Size = new System.Drawing.Size(73, 16);
             this.Carsamba18.TabIndex = 31;
             this.Carsamba18.Text = "18.00-19.00";
             // 
             // Sali18
             // 
             this.Sali18.AutoSize = true;
-            this.Sali18.Location = new System.Drawing.Point(293, 110);
+            this.Sali18.Location = new System.Drawing.Point(391, 135);
+            this.Sali18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Sali18.Name = "Sali18";
-            this.Sali18.Size = new System.Drawing.Size(64, 13);
+            this.Sali18.Size = new System.Drawing.Size(73, 16);
             this.Sali18.TabIndex = 32;
             this.Sali18.Text = "18.00-19.00";
             // 
             // Pazar18
             // 
             this.Pazar18.AutoSize = true;
-            this.Pazar18.Location = new System.Drawing.Point(293, 375);
+            this.Pazar18.Location = new System.Drawing.Point(391, 462);
+            this.Pazar18.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazar18.Name = "Pazar18";
-            this.Pazar18.Size = new System.Drawing.Size(64, 13);
+            this.Pazar18.Size = new System.Drawing.Size(73, 16);
             this.Pazar18.TabIndex = 33;
             this.Pazar18.Text = "18.00-19.00";
             // 
             // Persembe19
             // 
             this.Persembe19.AutoSize = true;
-            this.Persembe19.Location = new System.Drawing.Point(384, 206);
+            this.Persembe19.Location = new System.Drawing.Point(512, 254);
+            this.Persembe19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Persembe19.Name = "Persembe19";
-            this.Persembe19.Size = new System.Drawing.Size(64, 13);
+            this.Persembe19.Size = new System.Drawing.Size(73, 16);
             this.Persembe19.TabIndex = 34;
             this.Persembe19.Text = "19.00-20.00";
             // 
             // Pazar19
             // 
             this.Pazar19.AutoSize = true;
-            this.Pazar19.Location = new System.Drawing.Point(384, 375);
+            this.Pazar19.Location = new System.Drawing.Point(512, 462);
+            this.Pazar19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazar19.Name = "Pazar19";
-            this.Pazar19.Size = new System.Drawing.Size(64, 13);
+            this.Pazar19.Size = new System.Drawing.Size(73, 16);
             this.Pazar19.TabIndex = 35;
             this.Pazar19.Text = "19.00-20.00";
             // 
             // Cumartesi19
             // 
             this.Cumartesi19.AutoSize = true;
-            this.Cumartesi19.Location = new System.Drawing.Point(384, 312);
+            this.Cumartesi19.Location = new System.Drawing.Point(512, 384);
+            this.Cumartesi19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cumartesi19.Name = "Cumartesi19";
-            this.Cumartesi19.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi19.Size = new System.Drawing.Size(73, 16);
             this.Cumartesi19.TabIndex = 36;
             this.Cumartesi19.Text = "19.00-20.00";
             // 
             // Cuma19
             // 
             this.Cuma19.AutoSize = true;
-            this.Cuma19.Location = new System.Drawing.Point(384, 257);
+            this.Cuma19.Location = new System.Drawing.Point(512, 316);
+            this.Cuma19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cuma19.Name = "Cuma19";
-            this.Cuma19.Size = new System.Drawing.Size(64, 13);
+            this.Cuma19.Size = new System.Drawing.Size(73, 16);
             this.Cuma19.TabIndex = 37;
             this.Cuma19.Text = "19.00-20.00";
             // 
             // Carsamba19
             // 
             this.Carsamba19.AutoSize = true;
-            this.Carsamba19.Location = new System.Drawing.Point(384, 158);
+            this.Carsamba19.Location = new System.Drawing.Point(512, 194);
+            this.Carsamba19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Carsamba19.Name = "Carsamba19";
-            this.Carsamba19.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba19.Size = new System.Drawing.Size(73, 16);
             this.Carsamba19.TabIndex = 38;
             this.Carsamba19.Text = "19.00-20.00";
             // 
             // Sali19
             // 
             this.Sali19.AutoSize = true;
-            this.Sali19.Location = new System.Drawing.Point(384, 110);
+            this.Sali19.Location = new System.Drawing.Point(512, 135);
+            this.Sali19.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Sali19.Name = "Sali19";
-            this.Sali19.Size = new System.Drawing.Size(64, 13);
+            this.Sali19.Size = new System.Drawing.Size(73, 16);
             this.Sali19.TabIndex = 39;
             this.Sali19.Text = "19.00-20.00";
             // 
             // Sali20
             // 
             this.Sali20.AutoSize = true;
-            this.Sali20.Location = new System.Drawing.Point(472, 110);
+            this.Sali20.Location = new System.Drawing.Point(629, 135);
+            this.Sali20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Sali20.Name = "Sali20";
-            this.Sali20.Size = new System.Drawing.Size(64, 13);
+            this.Sali20.Size = new System.Drawing.Size(73, 16);
             this.Sali20.TabIndex = 40;
             this.Sali20.Text = "20.00-21.00";
             // 
             // Cumartesi20
             // 
             this.Cumartesi20.AutoSize = true;
-            this.Cumartesi20.Location = new System.Drawing.Point(472, 312);
+            this.Cumartesi20.Location = new System.Drawing.Point(629, 384);
+            this.Cumartesi20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cumartesi20.Name = "Cumartesi20";
-            this.Cumartesi20.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi20.Size = new System.Drawing.Size(73, 16);
             this.Cumartesi20.TabIndex = 41;
             this.Cumartesi20.Text = "20.00-21.00";
             // 
             // Cuma20
             // 
             this.Cuma20.AutoSize = true;
-            this.Cuma20.Location = new System.Drawing.Point(472, 257);
+            this.Cuma20.Location = new System.Drawing.Point(629, 316);
+            this.Cuma20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cuma20.Name = "Cuma20";
-            this.Cuma20.Size = new System.Drawing.Size(64, 13);
+            this.Cuma20.Size = new System.Drawing.Size(73, 16);
             this.Cuma20.TabIndex = 42;
             this.Cuma20.Text = "20.00-21.00";
             // 
             // Persembe20
             // 
             this.Persembe20.AutoSize = true;
-            this.Persembe20.Location = new System.Drawing.Point(472, 206);
+            this.Persembe20.Location = new System.Drawing.Point(629, 254);
+            this.Persembe20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Persembe20.Name = "Persembe20";
-            this.Persembe20.Size = new System.Drawing.Size(64, 13);
+            this.Persembe20.Size = new System.Drawing.Size(73, 16);
             this.Persembe20.TabIndex = 43;
             this.Persembe20.Text = "20.00-21.00";
             // 
             // Carsamba20
             // 
             this.Carsamba20.AutoSize = true;
-            this.Carsamba20.Location = new System.Drawing.Point(472, 158);
+            this.Carsamba20.Location = new System.Drawing.Point(629, 194);
+            this.Carsamba20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Carsamba20.Name = "Carsamba20";
-            this.Carsamba20.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba20.Size = new System.Drawing.Size(73, 16);
             this.Carsamba20.TabIndex = 44;
             this.Carsamba20.Text = "20.00-21.00";
             // 
             // Pazar20
             // 
             this.Pazar20.AutoSize = true;
-            this.Pazar20.Location = new System.Drawing.Point(472, 375);
+            this.Pazar20.Location = new System.Drawing.Point(629, 462);
+            this.Pazar20.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazar20.Name = "Pazar20";
-            this.Pazar20.Size = new System.Drawing.Size(64, 13);
+            this.Pazar20.Size = new System.Drawing.Size(73, 16);
             this.Pazar20.TabIndex = 45;
             this.Pazar20.Text = "20.00-21.00";
             // 
             // Pazar21
             // 
             this.Pazar21.AutoSize = true;
-            this.Pazar21.Location = new System.Drawing.Point(563, 375);
+            this.Pazar21.Location = new System.Drawing.Point(751, 462);
+            this.Pazar21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazar21.Name = "Pazar21";
-            this.Pazar21.Size = new System.Drawing.Size(64, 13);
+            this.Pazar21.Size = new System.Drawing.Size(73, 16);
             this.Pazar21.TabIndex = 46;
             this.Pazar21.Text = "21.00-22.00";
             // 
             // Cumartesi21
             // 
             this.Cumartesi21.AutoSize = true;
-            this.Cumartesi21.Location = new System.Drawing.Point(563, 312);
+            this.Cumartesi21.Location = new System.Drawing.Point(751, 384);
+            this.Cumartesi21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cumartesi21.Name = "Cumartesi21";
-            this.Cumartesi21.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi21.Size = new System.Drawing.Size(73, 16);
             this.Cumartesi21.TabIndex = 47;
             this.Cumartesi21.Text = "21.00-22.00";
             // 
             // Cuma21
             // 
             this.Cuma21.AutoSize = true;
-            this.Cuma21.Location = new System.Drawing.Point(563, 257);
+            this.Cuma21.Location = new System.Drawing.Point(751, 316);
+            this.Cuma21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cuma21.Name = "Cuma21";
-            this.Cuma21.Size = new System.Drawing.Size(64, 13);
+            this.Cuma21.Size = new System.Drawing.Size(73, 16);
             this.Cuma21.TabIndex = 48;
             this.Cuma21.Text = "21.00-22.00";
             // 
             // Persembe21
             // 
             this.Persembe21.AutoSize = true;
-            this.Persembe21.Location = new System.Drawing.Point(563, 206);
+            this.Persembe21.Location = new System.Drawing.Point(751, 254);
+            this.Persembe21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Persembe21.Name = "Persembe21";
-            this.Persembe21.Size = new System.Drawing.Size(64, 13);
+            this.Persembe21.Size = new System.Drawing.Size(73, 16);
             this.Persembe21.TabIndex = 49;
             this.Persembe21.Text = "21.00-22.00";
             // 
             // Carsamba21
             // 
             this.Carsamba21.AutoSize = true;
-            this.Carsamba21.Location = new System.Drawing.Point(563, 158);
+            this.Carsamba21.Location = new System.Drawing.Point(751, 194);
+            this.Carsamba21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Carsamba21.Name = "Carsamba21";
-            this.Carsamba21.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba21.Size = new System.Drawing.Size(73, 16);
             this.Carsamba21.TabIndex = 50;
             this.Carsamba21.Text = "21.00-22.00";
             // 
             // Sali21
             // 
             this.Sali21.AutoSize = true;
-            this.Sali21.Location = new System.Drawing.Point(563, 110);
+            this.Sali21.Location = new System.Drawing.Point(751, 135);
+            this.Sali21.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Sali21.Name = "Sali21";
-            this.Sali21.Size = new System.Drawing.Size(64, 13);
+            this.Sali21.Size = new System.Drawing.Size(73, 16);
             this.Sali21.TabIndex = 51;
             this.Sali21.Text = "21.00-22.00";
             // 
             // Cumartesi22
             // 
             this.Cumartesi22.AutoSize = true;
-            this.Cumartesi22.Location = new System.Drawing.Point(652, 312);
+            this.Cumartesi22.Location = new System.Drawing.Point(869, 384);
+            this.Cumartesi22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cumartesi22.Name = "Cumartesi22";
-            this.Cumartesi22.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi22.Size = new System.Drawing.Size(73, 16);
             this.Cumartesi22.TabIndex = 52;
             this.Cumartesi22.Text = "22.00-23.00";
             // 
             // Cuma22
             // 
             this.Cuma22.AutoSize = true;
-            this.Cuma22.Location = new System.Drawing.Point(652, 257);
+            this.Cuma22.Location = new System.Drawing.Point(869, 316);
+            this.Cuma22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cuma22.Name = "Cuma22";
-            this.Cuma22.Size = new System.Drawing.Size(64, 13);
+            this.Cuma22.Size = new System.Drawing.Size(73, 16);
             this.Cuma22.TabIndex = 53;
             this.Cuma22.Text = "22.00-23.00";
             // 
             // Persembe22
             // 
             this.Persembe22.AutoSize = true;
-            this.Persembe22.Location = new System.Drawing.Point(652, 206);
+            this.Persembe22.Location = new System.Drawing.Point(869, 254);
+            this.Persembe22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Persembe22.Name = "Persembe22";
-            this.Persembe22.Size = new System.Drawing.Size(64, 13);
+            this.Persembe22.Size = new System.Drawing.Size(73, 16);
             this.Persembe22.TabIndex = 54;
             this.Persembe22.Text = "22.00-23.00";
             // 
             // Carsamba22
             // 
             this.Carsamba22.AutoSize = true;
-            this.Carsamba22.Location = new System.Drawing.Point(652, 158);
+            this.Carsamba22.Location = new System.Drawing.Point(869, 194);
+            this.Carsamba22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Carsamba22.Name = "Carsamba22";
-            this.Carsamba22.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba22.Size = new System.Drawing.Size(73, 16);
             this.Carsamba22.TabIndex = 55;
             this.Carsamba22.Text = "22.00-23.00";
             // 
             // Sali22
             // 
             this.Sali22.AutoSize = true;
-            this.Sali22.Location = new System.Drawing.Point(652, 110);
+            this.Sali22.Location = new System.Drawing.Point(869, 135);
+            this.Sali22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Sali22.Name = "Sali22";
-            this.Sali22.Size = new System.Drawing.Size(64, 13);
+            this.Sali22.Size = new System.Drawing.Size(73, 16);
             this.Sali22.TabIndex = 56;
             this.Sali22.Text = "22.00-23.00";
             // 
             // Pazar22
             // 
             this.Pazar22.AutoSize = true;
-            this.Pazar22.Location = new System.Drawing.Point(652, 375);
+            this.Pazar22.Location = new System.Drawing.Point(869, 462);
+            this.Pazar22.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazar22.Name = "Pazar22";
-            this.Pazar22.Size = new System.Drawing.Size(64, 13);
+            this.Pazar22.Size = new System.Drawing.Size(73, 16);
             this.Pazar22.TabIndex = 57;
             this.Pazar22.Text = "22.00-23.00";
             // 
             // Cumartesi23
             // 
             this.Cumartesi23.AutoSize = true;
-            this.Cumartesi23.Location = new System.Drawing.Point(734, 312);
+            this.Cumartesi23.Location = new System.Drawing.Point(979, 384);
+            this.Cumartesi23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cumartesi23.Name = "Cumartesi23";
-            this.Cumartesi23.Size = new System.Drawing.Size(64, 13);
+            this.Cumartesi23.Size = new System.Drawing.Size(73, 16);
             this.Cumartesi23.TabIndex = 58;
             this.Cumartesi23.Text = "23.00-00.00";
             // 
             // Cuma23
             // 
             this.Cuma23.AutoSize = true;
-            this.Cuma23.Location = new System.Drawing.Point(734, 257);
+            this.Cuma23.Location = new System.Drawing.Point(979, 316);
+            this.Cuma23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Cuma23.Name = "Cuma23";
-            this.Cuma23.Size = new System.Drawing.Size(64, 13);
+            this.Cuma23.Size = new System.Drawing.Size(73, 16);
             this.Cuma23.TabIndex = 59;
             this.Cuma23.Text = "23.00-00.00";
             // 
             // Persembe23
             // 
             this.Persembe23.AutoSize = true;
-            this.Persembe23.Location = new System.Drawing.Point(734, 206);
+            this.Persembe23.Location = new System.Drawing.Point(979, 254);
+            this.Persembe23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Persembe23.Name = "Persembe23";
-            this.Persembe23.Size = new System.Drawing.Size(64, 13);
+            this.Persembe23.Size = new System.Drawing.Size(73, 16);
             this.Persembe23.TabIndex = 60;
             this.Persembe23.Text = "23.00-00.00";
             // 
             // Carsamba23
             // 
             this.Carsamba23.AutoSize = true;
-            this.Carsamba23.Location = new System.Drawing.Point(734, 158);
+            this.Carsamba23.Location = new System.Drawing.Point(979, 194);
+            this.Carsamba23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Carsamba23.Name = "Carsamba23";
-            this.Carsamba23.Size = new System.Drawing.Size(64, 13);
+            this.Carsamba23.Size = new System.Drawing.Size(73, 16);
             this.Carsamba23.TabIndex = 61;
             this.Carsamba23.Text = "23.00-00.00";
             // 
             // Sali23
             // 
             this.Sali23.AutoSize = true;
-            this.Sali23.Location = new System.Drawing.Point(734, 110);
+            this.Sali23.Location = new System.Drawing.Point(979, 135);
+            this.Sali23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Sali23.Name = "Sali23";
-            this.Sali23.Size = new System.Drawing.Size(64, 13);
+            this.Sali23.Size = new System.Drawing.Size(73, 16);
             this.Sali23.TabIndex = 62;
             this.Sali23.Text = "23.00-00.00";
             // 
             // Pazar23
             // 
             this.Pazar23.AutoSize = true;
-            this.Pazar23.Location = new System.Drawing.Point(734, 375);
+            this.Pazar23.Location = new System.Drawing.Point(979, 462);
+            this.Pazar23.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.Pazar23.Name = "Pazar23";
-            this.Pazar23.Size = new System.Drawing.Size(64, 13);
+            this.Pazar23.Size = new System.Drawing.Size(73, 16);
             this.Pazar23.TabIndex = 63;
             this.Pazar23.Text = "23.00-00.00";
             // 
             // btnrzrv
             // 
-            this.btnrzrv.Location = new System.Drawing.Point(723, 416);
+            this.btnrzrv.Location = new System.Drawing.Point(964, 512);
+            this.btnrzrv.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnrzrv.Name = "btnrzrv";
-            this.btnrzrv.Size = new System.Drawing.Size(75, 23);
+            this.btnrzrv.Size = new System.Drawing.Size(100, 28);
             this.btnrzrv.TabIndex = 64;
             this.btnrzrv.Text = "Rezerve Et";
             this.btnrzrv.UseVisualStyleBackColor = true;
@@ -703,18 +765,20 @@ namespace Halı_Saha_Rezervasyonu
             // lblgun
             // 
             this.lblgun.AutoSize = true;
-            this.lblgun.Location = new System.Drawing.Point(12, 416);
+            this.lblgun.Location = new System.Drawing.Point(16, 512);
+            this.lblgun.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblgun.Name = "lblgun";
-            this.lblgun.Size = new System.Drawing.Size(27, 13);
+            this.lblgun.Size = new System.Drawing.Size(31, 16);
             this.lblgun.TabIndex = 65;
             this.lblgun.Text = "Gün";
             // 
             // lblsaat
             // 
             this.lblsaat.AutoSize = true;
-            this.lblsaat.Location = new System.Drawing.Point(12, 445);
+            this.lblsaat.Location = new System.Drawing.Point(16, 548);
+            this.lblsaat.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblsaat.Name = "lblsaat";
-            this.lblsaat.Size = new System.Drawing.Size(29, 13);
+            this.lblsaat.Size = new System.Drawing.Size(35, 16);
             this.lblsaat.TabIndex = 66;
             this.lblsaat.Text = "Saat";
             // 
@@ -724,7 +788,7 @@ namespace Halı_Saha_Rezervasyonu
             this.comboBox1.Location = new System.Drawing.Point(125, 502);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(160, 21);
+            this.comboBox1.Size = new System.Drawing.Size(160, 24);
             this.comboBox1.TabIndex = 67;
             // 
             // comboBox2
@@ -733,15 +797,24 @@ namespace Halı_Saha_Rezervasyonu
             this.comboBox2.Location = new System.Drawing.Point(125, 544);
             this.comboBox2.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox2.Name = "comboBox2";
-            this.comboBox2.Size = new System.Drawing.Size(160, 21);
+            this.comboBox2.Size = new System.Drawing.Size(160, 24);
             this.comboBox2.TabIndex = 68;
             // 
             // cmbgun
             // 
             this.cmbgun.FormattingEnabled = true;
-            this.cmbgun.Location = new System.Drawing.Point(94, 408);
+            this.cmbgun.Items.AddRange(new object[] {
+            "Pazartesi",
+            "Sali",
+            "Carsamba",
+            "Persembe",
+            "Cuma",
+            "Cumartesi",
+            "Pazar"});
+            this.cmbgun.Location = new System.Drawing.Point(125, 502);
+            this.cmbgun.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbgun.Name = "cmbgun";
-            this.cmbgun.Size = new System.Drawing.Size(121, 21);
+            this.cmbgun.Size = new System.Drawing.Size(160, 24);
             this.cmbgun.TabIndex = 67;
             // 
             // cmbsaat
@@ -756,16 +829,17 @@ namespace Halı_Saha_Rezervasyonu
             "21.00-22.00",
             "22.00-23.00",
             "23.00-00.00"});
-            this.cmbsaat.Location = new System.Drawing.Point(94, 437);
+            this.cmbsaat.Location = new System.Drawing.Point(125, 538);
+            this.cmbsaat.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.cmbsaat.Name = "cmbsaat";
-            this.cmbsaat.Size = new System.Drawing.Size(121, 21);
+            this.cmbsaat.Size = new System.Drawing.Size(160, 24);
             this.cmbsaat.TabIndex = 68;
             // 
             // Rezervasyon_Görüntüleme
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(818, 467);
+            this.ClientSize = new System.Drawing.Size(1091, 575);
             this.Controls.Add(this.cmbsaat);
             this.Controls.Add(this.cmbgun);
             this.Controls.Add(this.lblsaat);
@@ -835,16 +909,10 @@ namespace Halı_Saha_Rezervasyonu
             this.Controls.Add(this.Carsamba);
             this.Controls.Add(this.lblsali);
             this.Controls.Add(this.lblpzt);
-            cmbgun.Items.Add("Pazartesi");
-            cmbgun.Items.Add("Sali");
-            cmbgun.Items.Add("Carsamba");
-            cmbgun.Items.Add("Persembe");
-            cmbgun.Items.Add("Cuma");
-            cmbgun.Items.Add("Cumartesi");
-            cmbgun.Items.Add("Pazar");
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Rezervasyon_Görüntüleme";
             this.Text = "Rezervasyon_Görüntüleme";
-            //this.Load += new System.EventHandler(this.Rezervasyon_Görüntüleme_Load);
+            this.Load += new System.EventHandler(this.Rezervasyon_Görüntüleme_Load_1);
             this.ResumeLayout(false);
             this.PerformLayout();
 
