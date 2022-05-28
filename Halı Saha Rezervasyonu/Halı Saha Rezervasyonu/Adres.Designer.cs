@@ -34,10 +34,11 @@
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.telefonlabel = new System.Windows.Forms.Label();
+            this.fiyatlabel = new System.Windows.Forms.Label();
+            this.adreslabel = new System.Windows.Forms.Label();
+            this.ilcelabel = new System.Windows.Forms.Label();
+            this.idlabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // halısahaadı_label
@@ -100,45 +101,54 @@
             this.label5.TabIndex = 5;
             this.label5.Text = "İlçe :";
             // 
-            // label6
+            // telefonlabel
             // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(178, 141);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(108, 29);
-            this.label6.TabIndex = 6;
-            this.label6.Text = "Telefon :";
+            this.telefonlabel.AutoSize = true;
+            this.telefonlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.telefonlabel.Location = new System.Drawing.Point(178, 141);
+            this.telefonlabel.Name = "telefonlabel";
+            this.telefonlabel.Size = new System.Drawing.Size(108, 29);
+            this.telefonlabel.TabIndex = 6;
+            this.telefonlabel.Text = "Telefon :";
             // 
-            // label7
+            // fiyatlabel
             // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(146, 189);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(108, 29);
-            this.label7.TabIndex = 7;
-            this.label7.Text = "Telefon :";
+            this.fiyatlabel.AutoSize = true;
+            this.fiyatlabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.fiyatlabel.Location = new System.Drawing.Point(146, 189);
+            this.fiyatlabel.Name = "fiyatlabel";
+            this.fiyatlabel.Size = new System.Drawing.Size(108, 29);
+            this.fiyatlabel.TabIndex = 7;
+            this.fiyatlabel.Text = "Telefon :";
             // 
-            // label8
+            // adreslabel
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(210, 278);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(108, 29);
-            this.label8.TabIndex = 8;
-            this.label8.Text = "Telefon :";
+            this.adreslabel.AutoSize = true;
+            this.adreslabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.adreslabel.Location = new System.Drawing.Point(210, 278);
+            this.adreslabel.Name = "adreslabel";
+            this.adreslabel.Size = new System.Drawing.Size(108, 29);
+            this.adreslabel.TabIndex = 8;
+            this.adreslabel.Text = "Telefon :";
             // 
-            // label9
+            // ilcelabel
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(134, 320);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(108, 29);
-            this.label9.TabIndex = 9;
-            this.label9.Text = "Telefon :";
+            this.ilcelabel.AutoSize = true;
+            this.ilcelabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.ilcelabel.Location = new System.Drawing.Point(134, 320);
+            this.ilcelabel.Name = "ilcelabel";
+            this.ilcelabel.Size = new System.Drawing.Size(108, 29);
+            this.ilcelabel.TabIndex = 9;
+            this.ilcelabel.Text = "Telefon :";
+            // 
+            // idlabel
+            // 
+            this.idlabel.AutoSize = true;
+            this.idlabel.Location = new System.Drawing.Point(540, 105);
+            this.idlabel.Name = "idlabel";
+            this.idlabel.Size = new System.Drawing.Size(44, 16);
+            this.idlabel.TabIndex = 10;
+            this.idlabel.Text = "label6";
             // 
             // Adres
             // 
@@ -146,10 +156,11 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PaleGreen;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.label9);
-            this.Controls.Add(this.label8);
-            this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
+            this.Controls.Add(this.idlabel);
+            this.Controls.Add(this.ilcelabel);
+            this.Controls.Add(this.adreslabel);
+            this.Controls.Add(this.fiyatlabel);
+            this.Controls.Add(this.telefonlabel);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label3);
@@ -158,6 +169,7 @@
             this.Controls.Add(this.halısahaadı_label);
             this.Name = "Adres";
             this.Text = "Adres";
+            this.Load += new System.EventHandler(this.Adres_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -171,9 +183,10 @@
         public System.Windows.Forms.Label label3;
         public System.Windows.Forms.Label label4;
         public System.Windows.Forms.Label label5;
-        public System.Windows.Forms.Label label6;
-        public System.Windows.Forms.Label label7;
-        public System.Windows.Forms.Label label8;
-        public System.Windows.Forms.Label label9;
+        public System.Windows.Forms.Label telefonlabel;
+        public System.Windows.Forms.Label fiyatlabel;
+        public System.Windows.Forms.Label adreslabel;
+        public System.Windows.Forms.Label ilcelabel;
+        public System.Windows.Forms.Label idlabel;
     }
 }

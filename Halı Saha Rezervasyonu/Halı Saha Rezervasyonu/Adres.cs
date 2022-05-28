@@ -16,5 +16,24 @@ namespace Halı_Saha_Rezervasyonu
         {
             InitializeComponent();
         }
+        public string isim, telefon, ilce, fiyat, id;
+        public Adres(string isim, string telefon,string ilce, string fiyat, string id)
+        {
+            this.isim = isim;
+            this.telefon = telefon;
+            this.ilce = ilce;
+            this.fiyat = fiyat;
+            this.id = id; 
+        }
+
+        private void Adres_Load(object sender, EventArgs e)
+        {
+            idlabel.Text = id;
+            halısahaadı_label.Text = isim;
+            telefonlabel.Text = telefon;
+            ilcelabel.Text = ilce; 
+            fiyatlabel.Text = fiyat;
+
+        }
     }
 }

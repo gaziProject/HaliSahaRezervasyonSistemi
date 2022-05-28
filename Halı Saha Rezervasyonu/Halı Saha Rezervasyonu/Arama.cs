@@ -152,6 +152,12 @@ namespace Halı_Saha_Rezervasyonu
         private void dataGridView1_DoubleClick(object sender, EventArgs e)
         {
             Adres ac = new Adres();
+            Adres deger = new Adres(dataGridView1.CurrentRow.Cells[0].Value.ToString(), dataGridView1.CurrentRow.Cells[1].Value.ToString(), dataGridView1.CurrentRow.Cells[2].Value.ToString(), dataGridView1.CurrentRow.Cells[3].Value.ToString(), dataGridView1.CurrentRow.Cells[4].Value.ToString());
+            //deger.id = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            //deger.isim = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            //deger.telefon = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            //deger.ilce = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+            //deger.fiyat = dataGridView1.CurrentRow.Cells[4].Value.ToString();
             ac.Show();
             Hide();
         }
