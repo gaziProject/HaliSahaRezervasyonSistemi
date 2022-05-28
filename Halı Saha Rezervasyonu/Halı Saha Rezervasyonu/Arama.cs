@@ -18,7 +18,7 @@ namespace Halı_Saha_Rezervasyonu
             InitializeComponent();
         }
 
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.Jet.OLEDB.4.0;Data Source=C:\\Users\\omermmz\\source\\repos\\HaliSahaRezervasyonSistemi\\Halısaha.mdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\6ncaf\\OneDrive\\Masaüstü\\git\\Halısaha.mdb");
         // Yolu Girin Buraya
 
         
@@ -44,7 +44,7 @@ namespace Halı_Saha_Rezervasyonu
 
         private void SahaNoTextBox_TextChanged(object sender, EventArgs e)
         {
-            Filtrele();
+            //Filtrele();
         }
 
         private void Arama_Load(object sender, EventArgs e)
@@ -66,13 +66,13 @@ namespace Halı_Saha_Rezervasyonu
         }
         DataTable tbl = new DataTable();
         DataTable tbl2 = new DataTable();
-        DataView Filtrele()
-        {
-            DataView dv = new DataView();
-            dv = tbl.DefaultView;
-            dv.RowFilter = "Convert(id,System.String) Like '" + SahaNoTextBox.Text + "%'";
-            return dv;
-        }
+        //DataView Filtrele()
+        //{
+        //    DataView dv = new DataView();
+        //    dv = tbl.DefaultView;
+        //    dv.RowFilter = "Convert(id,System.String) Like '" + SahaNoTextBox.Text + "%'";
+        //    return dv;
+        //}
         DataView Filtrele_ılce()
         {
             DataView dv = new DataView();
