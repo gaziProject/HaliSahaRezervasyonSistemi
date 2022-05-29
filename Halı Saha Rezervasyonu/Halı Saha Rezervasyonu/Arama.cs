@@ -18,7 +18,7 @@ namespace Halı_Saha_Rezervasyonu
             InitializeComponent();
         }
 
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\6ncaf\\OneDrive\\Masaüstü\\git\\Halısaha.mdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\yibif\\Desktop\\github gazi proje\\HaliSahaRezervasyonSistemi\\Halısaha.mdb");
         // Yolu Girin Buraya
 
         
@@ -29,8 +29,8 @@ namespace Halı_Saha_Rezervasyonu
             baglanti.Open();
             comboBox1.Text = "";
             OleDbDataAdapter adpt = new OleDbDataAdapter("Select id,HalısahaAdı,Ilce,Fiyat,Degerlendirme From Ana", baglanti);
-            adpt.Fill(tbl);
-            dataGridView1.DataSource = tbl;
+            adpt.Fill(tbl3);
+            dataGridView1.DataSource = tbl3;
             baglanti.Close();
         }
 
@@ -66,6 +66,7 @@ namespace Halı_Saha_Rezervasyonu
         }
         DataTable tbl = new DataTable();
         DataTable tbl2 = new DataTable();
+        DataTable tbl3 = new DataTable();
         //DataView Filtrele()
         //{
         //    DataView dv = new DataView();

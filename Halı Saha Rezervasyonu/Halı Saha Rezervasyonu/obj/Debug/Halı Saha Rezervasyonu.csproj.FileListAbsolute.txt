@@ -66,3 +66,4 @@ C:\Users\6ncaf\OneDrive\Masaüstü\git\Halı Saha Rezervasyonu\Halı Saha Rezerv
 C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Adres.resources
 C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Form1.resources
 C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.kayıtol.resources
+C:\Users\yibif\Desktop\github gazi proje\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Adres.resources

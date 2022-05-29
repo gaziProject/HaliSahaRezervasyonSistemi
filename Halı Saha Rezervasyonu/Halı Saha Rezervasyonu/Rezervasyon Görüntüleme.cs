@@ -15,7 +15,7 @@ namespace Halı_Saha_Rezervasyonu
     public partial class Rezervasyon_Görüntüleme : Form
     {
         public int x;
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\6ncaf\\OneDrive\\Masaüstü\\git\\Halısaha.mdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\yibif\\Desktop\\github gazi proje\\HaliSahaRezervasyonSistemi\\Halısaha.mdb");
         OleDbCommand komut;
         OleDbDataReader re;
         public Rezervasyon_Görüntüleme()
