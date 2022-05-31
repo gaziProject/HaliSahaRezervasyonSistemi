@@ -34,9 +34,14 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< Updated upstream
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(46)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(600, 560);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+=======
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(30)))), ((int)(((byte)(41)))));
+            this.ClientSize = new System.Drawing.Size(600, 560);
+>>>>>>> Stashed changes
             this.Name = "Form3";
             this.Text = "Form3";
             this.ResumeLayout(false);

@@ -51,6 +51,9 @@ C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyo
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.Form3.resources
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\bin\x64\Debug\FontAwesome.Sharp.dll
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı Saha Rezervasyonu.csproj.CopyComplete
+<<<<<<< Updated upstream
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.sifremiunuttum.resources
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.şifreyenileme.resources
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.warning.resources
+=======
+>>>>>>> Stashed changes
