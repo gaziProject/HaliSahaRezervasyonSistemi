@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             this.groupBoxkisisel = new System.Windows.Forms.GroupBox();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
@@ -386,6 +387,45 @@
             this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
+=======
+            this.components = new System.ComponentModel.Container();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.maskedTextBox1 = new System.Windows.Forms.MaskedTextBox();
+            this.textBox6 = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox5 = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
+            this.maskedTextBox2 = new System.Windows.Forms.MaskedTextBox();
+            this.label7 = new System.Windows.Forms.Label();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.textBox9 = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBox7 = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.ıconButton1 = new FontAwesome.Sharp.IconButton();
+            this.ıconButton2 = new FontAwesome.Sharp.IconButton();
+            this.ıconButton3 = new FontAwesome.Sharp.IconButton();
+            this.toolTip1 = new System.Windows.Forms.ToolTip(this.components);
+            this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
+            this.SuspendLayout();
+            // 
+>>>>>>> Stashed changes
             // groupBox1
             // 
             this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
@@ -725,12 +765,16 @@
             this.ıconButton1.Size = new System.Drawing.Size(83, 29);
             this.ıconButton1.TabIndex = 8;
             this.ıconButton1.Text = "Kayıt Ol";
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             this.ıconButton1.UseVisualStyleBackColor = true;
             this.ıconButton1.Click += new System.EventHandler(this.ıconButton1_Click);
             // 
             // ıconButton2
             // 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             this.ıconButton2.FlatAppearance.BorderSize = 0;
             this.ıconButton2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -745,6 +789,8 @@
             this.ıconButton2.Text = "Temizle";
             this.ıconButton2.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageBeforeText;
 =======
+=======
+>>>>>>> Stashed changes
             this.ıconButton2.IconChar = FontAwesome.Sharp.IconChar.None;
             this.ıconButton2.IconColor = System.Drawing.Color.Black;
             this.ıconButton2.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -753,12 +799,16 @@
             this.ıconButton2.Size = new System.Drawing.Size(83, 29);
             this.ıconButton2.TabIndex = 9;
             this.ıconButton2.Text = "Temizle";
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             this.ıconButton2.UseVisualStyleBackColor = true;
             this.ıconButton2.Click += new System.EventHandler(this.ıconButton2_Click);
             // 
             // ıconButton3
             // 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             this.ıconButton3.FlatAppearance.BorderSize = 0;
             this.ıconButton3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -776,6 +826,8 @@
             this.ıconButton3.Click += new System.EventHandler(this.ıconButton3_Click);
             // 
 =======
+=======
+>>>>>>> Stashed changes
             this.ıconButton3.IconChar = FontAwesome.Sharp.IconChar.None;
             this.ıconButton3.IconColor = System.Drawing.Color.Black;
             this.ıconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
@@ -791,11 +843,15 @@
             // 
             this.toolTip1.Popup += new System.Windows.Forms.PopupEventHandler(this.toolTip1_Popup);
             // 
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             // kayıtol
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(646, 557);
@@ -813,12 +869,24 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "kayıtol";
             this.Text = "Form1";
+=======
+            this.ClientSize = new System.Drawing.Size(584, 521);
+            this.Controls.Add(this.groupBox3);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+            this.Name = "kayıtol";
+            this.Text = "Form1";
+>>>>>>> Stashed changes
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             this.ResumeLayout(false);
 
@@ -827,8 +895,11 @@
         #endregion
 
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         private System.Windows.Forms.GroupBox groupBoxkisisel;
 =======
+=======
+>>>>>>> Stashed changes
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.MaskedTextBox maskedTextBox1;
@@ -838,11 +909,15 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label3;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label6;
@@ -861,6 +936,8 @@
         private System.Windows.Forms.TextBox textBox6;
         private System.Windows.Forms.Label label9;
 =======
+=======
+>>>>>>> Stashed changes
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Label label9;
@@ -871,20 +948,29 @@
         private System.Windows.Forms.GroupBox groupBox3;
         private System.Windows.Forms.TextBox textBox9;
         private System.Windows.Forms.Label label12;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label10;
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         private FontAwesome.Sharp.IconButton ıconButton1;
         private FontAwesome.Sharp.IconButton ıconButton3;
         private FontAwesome.Sharp.IconButton ıconButton2;
 =======
+=======
+>>>>>>> Stashed changes
         private FontAwesome.Sharp.IconButton ıconButton2;
         private FontAwesome.Sharp.IconButton ıconButton1;
         private FontAwesome.Sharp.IconButton ıconButton3;
         private System.Windows.Forms.ToolTip toolTip1;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 }
