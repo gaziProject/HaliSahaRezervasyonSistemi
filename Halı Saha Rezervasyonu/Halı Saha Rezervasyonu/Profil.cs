@@ -16,12 +16,22 @@ namespace Halı_Saha_Rezervasyonu
         {
             InitializeComponent();
         }
-
-        private void button1_Click(object sender, EventArgs e)
+        public void loadform(object Form)
         {
-            Arama yeni = new Arama();
-            yeni.Show();
-            this.Hide();
+            if (this.panel4.Controls.Count > 0)
+            {
+                this.panel4.Controls.RemoveAt(0);
+            }
+            Form f = Form as Form;
+            f.TopLevel = false;
+            f.Dock = DockStyle.Fill;
+            this.panel4.Controls.Add(f);
+            this.panel4.Tag = f;
+            f.Show();
+        }
+        private void ıconButton1_Click(object sender, EventArgs e)
+        {
+            loadform(new Arama());
         }
     }
 }

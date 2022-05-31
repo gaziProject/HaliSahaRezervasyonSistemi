@@ -18,7 +18,7 @@ namespace Halı_Saha_Rezervasyonu
             InitializeComponent();
         }
 
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\yibif\\Desktop\\github gazi proje\\HaliSahaRezervasyonSistemi\\Halısaha.mdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\onur_\\Documents\\GitHub\\HaliSahaRezervasyonSistemi\\Halısaha.mdb");
         // Yolu Girin Buraya
 
         
@@ -32,14 +32,6 @@ namespace Halı_Saha_Rezervasyonu
             adpt.Fill(tbl3);
             dataGridView1.DataSource = tbl3;
             baglanti.Close();
-        }
-
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-            Rezervasyon_Görüntüleme rezervasyon_Görüntüleme = new Rezervasyon_Görüntüleme();
-            rezervasyon_Görüntüleme.Show();
-            Hide();
         }
 
         private void SahaNoTextBox_TextChanged(object sender, EventArgs e)
@@ -80,11 +72,6 @@ namespace Halı_Saha_Rezervasyonu
             dv = tbl.DefaultView;
             dv.RowFilter = "Ilce Like '" + comboBox1.Text + "%'";
             return dv;
-        }
-
-        private void FiyatsiralaBtn_Click(object sender, EventArgs e)
-        {
-            
         }
 
         private void FiyatsiralaBtn_Click_1(object sender, EventArgs e)
@@ -140,7 +127,6 @@ namespace Halı_Saha_Rezervasyonu
        
         private void dataGridView1_DoubleClick(object sender, EventArgs e)
         {
-           
             Adres deger = new Adres();
             deger.id = dataGridView1.CurrentRow.Cells[0].Value.ToString();
             deger.isim = dataGridView1.CurrentRow.Cells[1].Value.ToString();

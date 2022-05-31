@@ -15,19 +15,22 @@ namespace Halı_Saha_Rezervasyonu
     public partial class Rezervasyon_Görüntüleme : Form
     {
         public int x;
-        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\yibif\\Desktop\\github gazi proje\\HaliSahaRezervasyonSistemi\\Halısaha.mdb");
+        OleDbConnection baglanti = new OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\onur_\\Documents\\GitHub\\HaliSahaRezervasyonSistemi\\Halısaha.mdb");
         OleDbCommand komut;
         OleDbDataReader re;
+
+        public void Alert (string msg)
+        {
+            warning f = new warning();
+            f.showalert(msg);
+        }
+
         public Rezervasyon_Görüntüleme()
         {
             InitializeComponent();
 
-
-
-
-
-
         }
+
         public Rezervasyon_Görüntüleme(string no)
         {
             InitializeComponent();
@@ -35,6 +38,7 @@ namespace Halı_Saha_Rezervasyonu
             acilis(x);
 
         }
+
         private void acilis(int x)
         {
             baglanti.Open();
@@ -171,29 +175,8 @@ namespace Halı_Saha_Rezervasyonu
             baglanti.Close();
 
         }
-        private void label6_Click(object sender, EventArgs e)
-        {
 
-        }
-
-        private void Rezervasyon_Görüntüleme_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label16_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label10_Click(object sender, EventArgs e)
-        {
-
-        }
-
-
-
-        private void button1_Click(object sender, EventArgs e)
+         private void button1_Click(object sender, EventArgs e)
         {
 
 
@@ -212,7 +195,7 @@ namespace Halı_Saha_Rezervasyonu
             {
                 if (l.ForeColor == Color.Red && l.BackColor == Color.DarkGreen && cmbsaat.Text.ToString() == l.Text && l.Name.IndexOf(cmbgun.Text.ToString(), 0) != -1)
                 {
-                    //Warning penceresi
+                    this.Alert("Hata!");
                     sayac++;
                 }
 
@@ -343,14 +326,8 @@ namespace Halı_Saha_Rezervasyonu
             }
             else
             {
-                //Warning penceresi
+                this.Alert("Hatalı Deneme");
             }
-
-
-
-
         }
-
-
     }
 }

@@ -31,3 +31,26 @@ C:\Users\6ncaf\OneDrive\Masaüstü\git\Halı Saha Rezervasyonu\Halı Saha Rezerv
 C:\Users\6ncaf\OneDrive\Masaüstü\git\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı Saha Rezervasyonu.exe
 C:\Users\6ncaf\OneDrive\Masaüstü\git\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı Saha Rezervasyonu.pdb
 C:\Users\6ncaf\OneDrive\Masaüstü\git\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.Adres.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\bin\x64\Debug\Halı Saha Rezervasyonu.exe.config
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\bin\x64\Debug\Halı Saha Rezervasyonu.exe
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\bin\x64\Debug\Halı Saha Rezervasyonu.pdb
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı Saha Rezervasyonu.csproj.AssemblyReference.cache
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı Saha Rezervasyonu.csproj.SuggestedBindingRedirects.cache
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.Adres.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.Arama.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.Form1.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.kayıtol.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.Form2.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.girisyap.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.Properties.Resources.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.Rezervasyon_Görüntüleme.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı Saha Rezervasyonu.csproj.GenerateResource.cache
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı Saha Rezervasyonu.csproj.CoreCompileInputs.cache
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı Saha Rezervasyonu.exe
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı Saha Rezervasyonu.pdb
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.Form3.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\bin\x64\Debug\FontAwesome.Sharp.dll
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı Saha Rezervasyonu.csproj.CopyComplete
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.sifremiunuttum.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.şifreyenileme.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\x64\Debug\Halı_Saha_Rezervasyonu.warning.resources

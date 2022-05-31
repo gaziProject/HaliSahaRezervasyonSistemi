@@ -35,7 +35,6 @@ C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyo
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Arama.resources
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Form2.resources
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.girisyap.resources
-C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.AnaEkran.resources
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Properties.Resources.resources
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Rezervasyon_Görüntüleme.resources
 C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı Saha Rezervasyonu.csproj.GenerateResource.cache
@@ -67,3 +66,7 @@ C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu
 C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Form1.resources
 C:\Users\omermmz\Source\Repos\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.kayıtol.resources
 C:\Users\yibif\Desktop\github gazi proje\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Adres.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\bin\Debug\FontAwesome.Sharp.dll
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Adres.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı_Saha_Rezervasyonu.Form3.resources
+C:\Users\onur_\Documents\GitHub\HaliSahaRezervasyonSistemi\Halı Saha Rezervasyonu\Halı Saha Rezervasyonu\obj\Debug\Halı Saha Rezervasyonu.csproj.CopyComplete

@@ -16,47 +16,34 @@ namespace Halı_Saha_Rezervasyonu
         {
             InitializeComponent();
         }
-
-        private Form aktifform = null;
-        private void formacma (Form ekran)
+        public void loadform (object Form)
         {
-            if (aktifform != null)
+            if (this.panel4.Controls.Count > 0)
             {
-                aktifform.Close();
+                this.panel4.Controls.RemoveAt(0);
             }
-            aktifform = ekran;
-            ekran.TopLevel = false;
-            ekran.FormBorderStyle = FormBorderStyle.None;
-            ekran.Dock = DockStyle.Fill;
-            panelForm.Controls.Add(ekran);
-            panelForm.Tag = ekran;
-            ekran.BringToFront();
-            ekran.Show();
+            Form f = Form as Form;
+            f.TopLevel = false;
+            f.Dock = DockStyle.Fill;
+            this.panel4.Controls.Add(f);
+            this.panel4.Tag = f;
+            f.Show();
         }
 
-        private void buttonCikis_Click(object sender, EventArgs e)
+        private void ıconButton2_Click(object sender, EventArgs e)
         {
-            this.Close();
+            loadform(new kayıtol());
         }
 
-        private void buttonGiris_Click(object sender, EventArgs e)
+        private void ıconButton1_Click(object sender, EventArgs e)
         {
-            formacma(new girisyap());
+            loadform(new girisyap());
         }
 
-        private void buttonKayıtOl_Click(object sender, EventArgs e)
+        private void ıconButton3_Click(object sender, EventArgs e)
         {
-            formacma(new kayıtol());
-        }
-
-        private void buttonYardım_Click(object sender, EventArgs e)
-        {
-            MessageBox.Show("'onur_arikan2002@hotmail.com' mailine ulaşabilirsiniz.");
-        }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
+            loadform(new Form3());
+            MessageBox.Show("onur_arikan2002@hotmail.com mailine ulaşabilirsiniz.");
         }
     }
 }
