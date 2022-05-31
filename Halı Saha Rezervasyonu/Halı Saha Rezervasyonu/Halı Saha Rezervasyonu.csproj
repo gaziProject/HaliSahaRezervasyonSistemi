@@ -175,6 +175,7 @@
       <DependentUpon>Rezervasyon Görüntüleme.cs</DependentUpon>
     </EmbeddedResource>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
     <EmbeddedResource Include="warning.resx">
       <DependentUpon>warning.cs</DependentUpon>
     </EmbeddedResource>
@@ -184,6 +185,8 @@
     <EmbeddedResource Include="şifreyenileme.resx">
       <DependentUpon>şifreyenileme.cs</DependentUpon>
     </EmbeddedResource>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
     <None Include="packages.config" />

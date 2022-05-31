@@ -17,6 +17,7 @@ namespace Halı_Saha_Rezervasyonu
             InitializeComponent();
         }
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         private void textclear(Control ctl)
         {
             foreach (Control item in ctl.Controls)
@@ -44,6 +45,10 @@ namespace Halı_Saha_Rezervasyonu
 
         private void groupBox1_Enter(object sender, EventArgs e)
 >>>>>>> Stashed changes
+=======
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+>>>>>>> Stashed changes
         {
 
         }
@@ -51,7 +56,11 @@ namespace Halı_Saha_Rezervasyonu
         private void ıconButton2_Click(object sender, EventArgs e)
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             textclear(this);
+=======
+            // Buraya her şeyi temizlemek için komutlar
+>>>>>>> Stashed changes
 =======
             // Buraya her şeyi temizlemek için komutlar
 >>>>>>> Stashed changes
@@ -64,6 +73,7 @@ namespace Halı_Saha_Rezervasyonu
 
         private void ıconButton1_Click(object sender, EventArgs e)
         {
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             if (textBox1.Text == "")
                 MessageBox.Show("Boş Bırakılamaz");
@@ -92,6 +102,8 @@ namespace Halı_Saha_Rezervasyonu
 
             }
 =======
+=======
+>>>>>>> Stashed changes
             if (textBox1.Text != null && textBox2.Text != null && textBox3.Text != null && textBox5.Text != null && textBox6.Text != null && textBox7.Text != null && textBox8.Text != null && textBox9.Text != null && comboBox1.Text != null && maskedTextBox1.Text != null && maskedTextBox2.Text != null)
             {
 
@@ -105,6 +117,9 @@ namespace Halı_Saha_Rezervasyonu
         private void toolTip1_Popup(object sender, PopupEventArgs e)
         {
             
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
     }

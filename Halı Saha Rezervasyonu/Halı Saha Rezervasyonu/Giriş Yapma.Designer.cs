@@ -72,11 +72,15 @@
             this.groupBox2.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox3.SuspendLayout();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             this.SuspendLayout();
             // 
             // ıconButton1
             // 
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
             this.ıconButton1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.ıconButton1.Enabled = false;
@@ -251,6 +255,8 @@
             this.ıconButton7.UseVisualStyleBackColor = true;
             this.ıconButton7.Click += new System.EventHandler(this.ıconButton7_Click);
 =======
+=======
+>>>>>>> Stashed changes
             this.button1.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.button1.Location = new System.Drawing.Point(0, 503);
             this.button1.Name = "button1";
@@ -583,6 +589,9 @@
             this.label10.Size = new System.Drawing.Size(124, 26);
             this.label10.TabIndex = 2;
             this.label10.Text = "Kullanıcı Adı:";
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             // 
             // girisyap
@@ -623,6 +632,9 @@
             this.groupBox1.PerformLayout();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
             this.ResumeLayout(false);
 
@@ -671,6 +683,9 @@
         private System.Windows.Forms.Label label11;
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Label label10;
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
     }
 }

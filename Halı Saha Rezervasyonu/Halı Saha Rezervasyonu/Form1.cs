@@ -52,6 +52,9 @@ namespace Halı_Saha_Rezervasyonu
             {
                 MessageBox.Show("Çıkış yapılmadı");
             }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
         }
 
@@ -68,9 +71,12 @@ namespace Halı_Saha_Rezervasyonu
         private void ıconButton3_Click(object sender, EventArgs e)
         {
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
             loadform(new Form3());
             MessageBox.Show("onur_arikan2002@hotmail.com mailine ulaşabilirsiniz.");
 =======
+=======
+>>>>>>> Stashed changes
             formacma(new Form3());
             MessageBox.Show("'onur_arikan2002@hotmail.com' mailine ulaşabilirsiniz.");
         }
